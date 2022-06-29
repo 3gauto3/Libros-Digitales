@@ -1,0 +1,106 @@
+@import '../base/base';
+
+@media (min-width: 800px) {
+
+    .navColor {
+        background-color: $colorteal;
+    }
+
+    .imagenPrincipal {
+        display: flex;
+        position: relative;
+        width: 700px;
+        height: 500px;
+        padding: 50px;
+        top: 20px;
+        left: 1px;
+        margin: 60px;
+    }
+
+    .tituloPrincipal {
+        display: flex;
+        position: relative;
+        width: 400px;
+        height: 70px;
+        left: 135px;
+        bottom: 5px;
+
+        h1 {
+            display: flex;
+            position: relative;
+            font-family: $fontacme;
+            font-size: 40px;
+            width: 190px;
+            height: 50px;
+            color: $textoblanco;
+
+        }
+    }
+
+    .catalogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-content: space-around;
+        align-content: space-around;
+        padding: 50px;
+        margin: 40px;
+        left: 10px;
+
+        img {
+            width: 170px;
+            height: 240px;
+            padding: 10px;
+        }
+    }
+
+    .cuadroContacto {
+        display: flex;
+        position: relative;
+        padding: 10px;
+        margin: 60px;
+        width: 570px;
+        height: 350px;
+        left: 55px;
+
+        .formularioContacto {
+            background-color: transparent;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            gap: 10px;
+            margin: 10px;
+            top: 1px;
+            width: 450px;
+            height: 200px;
+            left: 40px;
+
+            textarea {
+                width: 450px;
+                height: 50px;
+            }
+        }
+    }
+
+
+
+    footer {
+        background-color: $colorteal;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+
+        .py {
+            display: flex;
+            position: relative;
+            width: 90px;
+            height: 90px;
+            padding: 20px;
+            top: 10px;
+            left: 210px;
+
+        }
+    }
+
+}

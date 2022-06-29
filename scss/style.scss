@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: coral;
+    height: 100vh;
+}
+@import 'variables/variables';
+@import 'fragmentos/media1';
+@import 'fragmentos/media2';
+@import 'fragmentos/media3';
+@import 'fragmentos/media4';
+@import 'fragmentos/media5';
+
+.imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    padding: 50px;
+    top: 3px;
+    left: 300px;
+}
+
+h1 {
+    display: flex;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+    top: 8px;
+    padding: 11px;
+    font-size: 10px;
+    left: 150px;
+    color: white;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 30px;
+}
+
+img {
+    width: 150px;
+    height: 250px;
+    padding: 10px;
+}
+
+
+.py {
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    top: 15px;
+    left: 200px;
+
+}
+
+footer {
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    padding: 23px;
+}
