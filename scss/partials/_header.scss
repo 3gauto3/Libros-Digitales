@@ -1,0 +1,19 @@
+@import '../base/variables';
+
+.tituloPrincipal {
+    position: relative;
+    width: 400px;
+    height: 80px;
+    display: flex;
+
+    h1 {
+        display: flex;
+        position: relative;
+        font-family: $fontacme;
+        font-size: 30px;
+        width: 200px;
+        height: 100px;
+        top: 15px;
+        color: $textoblanco;
+    }
+}

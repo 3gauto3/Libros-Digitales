@@ -1,15 +1,116 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,900&display=swap");
+.botono, .boton {
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center; }
+
+.boton {
+  background-color: #13315c;
+  display: flex;
+  position: relative;
+  color: white; }
+
+.catalogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 40px;
+  margin: 30px; }
+  .catalogo img {
+    width: 140px;
+    height: 190px;
+    padding: 10px; }
+
+.cuadroContacto {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  margin: 40px;
+  width: 300px;
+  height: 400px;
+  left: 50px; }
+  .cuadroContacto .formularioContacto {
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10;
+    top: 45px;
+    width: 200px;
+    height: 200px;
+    left: 43px; }
+    .cuadroContacto .formularioContacto textarea {
+      width: 200px;
+      height: 50px; }
+
+footer {
+  background-color: #13315c;
+  display: flex;
+  flex-direction: row;
+  padding: 30px; }
+  footer .py {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    top: 5px;
+    left: 100px; }
+
 * {
   padding: 0;
   margin: 0; }
 
 body {
-  background-color: coral;
+  background-color: #0b2545;
   height: 100vh; }
+
+.tituloPrincipal {
+  position: relative;
+  width: 400px;
+  height: 80px;
+  display: flex; }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: "Acme", sans-serif;
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    top: 15px;
+    color: white; }
+
+.imagenPrincipal {
+  display: flex;
+  position: relative;
+  width: 450px;
+  height: 450px;
+  top: 15px;
+  left: 15px; }
+
+/*mapa de las imagenes del carrusel*/
+.map--imgPrincipal1 {
+  background-color: #13315c; }
+
+.map--imgPrincipal2 {
+  background-color: #13315c; }
+
+.map--imgPrincipal3 {
+  background-color: #13315c; }
+
+.navColor {
+  background-color: #13315c; }
 
 @media (min-width: 480px) {
   .navColor {
-    background-color: teal; }
+    background-color: #13315c; }
   .imagenPrincipal {
     display: flex;
     position: relative;
@@ -68,7 +169,7 @@ body {
         width: 200px;
         height: 50px; }
   footer {
-    background-color: teal;
+    background-color: #13315c;
     display: flex;
     flex-direction: row;
     padding: 30px; }
@@ -83,7 +184,7 @@ body {
 
 @media (min-width: 580px) {
   .navColor {
-    background-color: teal; }
+    background-color: #13315c; }
   .imagenPrincipal {
     display: flex;
     position: relative;
@@ -143,7 +244,7 @@ body {
         width: 200px;
         height: 50px; }
   footer {
-    background-color: teal;
+    background-color: #13315c;
     display: flex;
     flex-direction: row;
     padding: 30px; }
@@ -158,7 +259,7 @@ body {
 
 @media (min-width: 800px) {
   .navColor {
-    background-color: teal; }
+    background-color: #13315c; }
   .imagenPrincipal {
     display: flex;
     position: relative;
@@ -220,7 +321,7 @@ body {
         width: 450px;
         height: 50px; }
   footer {
-    background-color: teal;
+    background-color: #13315c;
     display: flex;
     flex-direction: row;
     padding: 40px; }
@@ -235,7 +336,7 @@ body {
 
 @media (min-width: 1024px) {
   .navColor {
-    background-color: teal; }
+    background-color: #13315c; }
   .imagenPrincipal {
     display: flex;
     position: relative;
@@ -295,7 +396,7 @@ body {
         width: 550px;
         height: 100px; }
   footer {
-    background-color: teal;
+    background-color: #13315c;
     display: flex;
     flex-direction: row;
     padding: 23px; }
@@ -310,13 +411,13 @@ body {
 
 @media (min-width: 1200px) {
   .navColor {
-    background-color: teal; }
+    background-color: #13315c; }
   .imagenPrincipal {
     display: flex;
     position: relative;
     width: 900px;
     height: 600px;
-    padding: 40px;
+    padding: 100px;
     top: 3px;
     left: 205px;
     margin: 15px; }
@@ -338,16 +439,17 @@ body {
   .catalogo {
     display: grid;
     position: relative;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 60px;
     justify-content: space-around;
     align-content: space-around;
     padding: 50px;
-    left: 15px; }
+    left: 15px;
+    top: 115px; }
     .catalogo img {
-      width: 150px;
-      height: 230px;
+      width: 250px;
+      height: 350px;
       padding: 1px; }
   .cuadroContacto {
     display: flex;
@@ -372,7 +474,7 @@ body {
         width: 700px;
         height: 100px; }
   footer {
-    background-color: teal;
+    background-color: #13315c;
     display: flex;
     flex-direction: row;
     padding: 23px; }
@@ -384,50 +486,3 @@ body {
       padding: 30px;
       top: 12px;
       left: 455px; } }
-
-.imagenPrincipal {
-  display: flex;
-  position: relative;
-  width: 800px;
-  height: 500px;
-  padding: 50px;
-  top: 3px;
-  left: 300px; }
-
-h1 {
-  display: flex;
-  position: relative;
-  font-family: 'Acme', sans-serif;
-  top: 8px;
-  padding: 11px;
-  font-size: 10px;
-  left: 150px;
-  color: white; }
-
-.catalogo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
-  margin: 30px; }
-
-img {
-  width: 150px;
-  height: 250px;
-  padding: 10px; }
-
-.py {
-  display: flex;
-  position: relative;
-  width: 50px;
-  height: 50px;
-  padding: 30px;
-  top: 15px;
-  left: 200px; }
-
-footer {
-  background-color: teal;
-  display: flex;
-  flex-direction: row;
-  padding: 23px; }

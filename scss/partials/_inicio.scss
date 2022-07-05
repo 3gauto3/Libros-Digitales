@@ -1,0 +1,21 @@
+.imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    top: 15px;
+    left: 15px;
+}
+
+/*mapa de las imagenes del carrusel*/
+
+$mapa: (imgPrincipal1: #13315c,
+    imgPrincipal2: #13315c,
+    imgPrincipal3: #13315c,
+);
+@each $map, $color in $mapa {
+    .map--#{$map} {
+    background-color: $color;
+    }
+    
+}

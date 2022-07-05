@@ -1,0 +1,6 @@
+.catalogo {
+@include catalogo;
+    img {
+@include acomodando;
+    }
+}
