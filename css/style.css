@@ -6,6 +6,61 @@
   padding: 8px 15px;
   text-decoration: none;
   text-align: center; }
+  @media (min-width: 480px) {
+    .botono, .boton {
+      display: flex;
+      position: relative;
+      font-size: 15px;
+      padding: 4px 24px;
+      text-decoration: none;
+      text-align: center;
+      width: 120px;
+      height: 30px;
+      left: 10px; } }
+  @media (min-width: 580px) {
+    .botono, .boton {
+      display: flex;
+      position: relative;
+      font-size: 20px;
+      padding: 8px 40px;
+      text-decoration: none;
+      text-align: center;
+      width: 180px;
+      height: 50px;
+      left: 10px; } }
+  @media (min-width: 800px) {
+    .botono, .boton {
+      display: flex;
+      position: relative;
+      font-size: 20px;
+      padding: 8px 28px;
+      text-decoration: none;
+      text-align: center;
+      width: 150px;
+      height: 50px;
+      left: 10px; } }
+  @media (min-width: 1024px) {
+    .botono, .boton {
+      display: flex;
+      position: relative;
+      font-size: 50px;
+      padding: 2px 25px;
+      text-decoration: none;
+      text-align: center;
+      width: 270px;
+      height: 90px;
+      left: 15px; } }
+  @media (min-width: 1200px) {
+    .botono, .boton {
+      display: flex;
+      position: relative;
+      font-size: 50px;
+      padding: 2px 30px;
+      text-decoration: none;
+      text-align: center;
+      width: 298.5px;
+      height: 90px;
+      left: 1px; } }
 
 .boton {
   background-color: #13315c;
@@ -210,16 +265,16 @@ body {
       color: white; }
   .catalogo {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 30px;
     justify-content: space-around;
     align-content: space-around;
     padding: 40px;
     margin: 30px; }
     .catalogo img {
-      width: 130px;
-      height: 200px;
+      width: 200px;
+      height: 300px;
       padding: 10px; }
   .cuadroContacto {
     display: flex;
@@ -286,8 +341,8 @@ body {
       color: white; }
   .catalogo {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 30px;
     justify-content: space-around;
     align-content: space-around;
@@ -363,16 +418,16 @@ body {
       color: white; }
   .catalogo {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 30px;
     justify-content: space-around;
     align-content: space-around;
     padding: 20px;
     margin: 30px; }
     .catalogo img {
-      width: 170px;
-      height: 230px;
+      width: 300px;
+      height: 400px;
       padding: 15px; }
   .cuadroContacto {
     display: flex;
@@ -439,17 +494,16 @@ body {
   .catalogo {
     display: grid;
     position: relative;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 60px;
     justify-content: space-around;
     align-content: space-around;
     padding: 50px;
-    left: 15px;
-    top: 115px; }
+    left: 15px; }
     .catalogo img {
-      width: 250px;
-      height: 350px;
+      width: 300px;
+      height: 400px;
       padding: 1px; }
   .cuadroContacto {
     display: flex;
