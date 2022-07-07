@@ -6,6 +6,17 @@
   padding: 8px 15px;
   text-decoration: none;
   text-align: center; }
+  @media (min-width: 380px) {
+    .botono, .boton {
+      display: flex;
+      position: relative;
+      font-size: 15px;
+      padding: 4px 24px;
+      text-decoration: none;
+      text-align: center;
+      width: 120px;
+      height: 30px;
+      left: 10px; } }
   @media (min-width: 480px) {
     .botono, .boton {
       display: flex;
@@ -70,8 +81,8 @@
 
 .catalogo {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 20px;
   justify-content: space-around;
   align-content: space-around;
@@ -163,6 +174,81 @@ body {
 .navColor {
   background-color: #13315c; }
 
+@media (min-width: 380px) {
+  .navColor {
+    background-color: #13315c; }
+  .imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 40px; }
+  .tituloPrincipal {
+    position: relative;
+    width: 380px;
+    height: 80px;
+    display: flex; }
+    .tituloPrincipal h1 {
+      display: flex;
+      position: relative;
+      font-family: "Acme", sans-serif;
+      font-size: 30px;
+      width: 200px;
+      height: 100px;
+      top: 15px;
+      color: white;
+      left: 120px; }
+  .catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 40px;
+    margin: 30px; }
+    .catalogo img {
+      width: 140px;
+      height: 190px;
+      padding: 10px; }
+  .cuadroContacto {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin: 40px;
+    width: 300px;
+    height: 400px;
+    left: 8px; }
+    .cuadroContacto .formularioContacto {
+      background-color: transparent;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      color: white;
+      gap: 10px;
+      margin: 10;
+      top: 45px;
+      width: 200px;
+      height: 200px;
+      left: 43px; }
+      .cuadroContacto .formularioContacto textarea {
+        width: 200px;
+        height: 50px; }
+  footer {
+    background-color: #13315c;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 100px; }
+    footer .py {
+      display: flex;
+      position: relative;
+      width: 70px;
+      height: 70px;
+      padding: 15px;
+      top: 5px;
+      left: 50px; } }
+
 @media (min-width: 480px) {
   .navColor {
     background-color: #13315c; }
@@ -171,7 +257,6 @@ body {
     position: relative;
     width: 400px;
     height: 400px;
-    top: 80px;
     left: 15px;
     margin: 30px; }
   .tituloPrincipal {
@@ -187,7 +272,8 @@ body {
       width: 200px;
       height: 100px;
       top: 15px;
-      color: white; }
+      color: white;
+      left: 170px; }
   .catalogo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -246,7 +332,6 @@ body {
     position: relative;
     width: 410px;
     height: 410px;
-    top: 90px;
     left: 40px;
     margin: 50px; }
   .tituloPrincipal {

@@ -1,6 +1,113 @@
 @import '../base/variables';
 
 
+@media (min-width:380px) {
+
+    .navColor {
+        background-color: $colorteal;
+    }
+
+ 
+
+    .imagenPrincipal {
+        display: flex;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        left: 40px;
+    }
+
+
+
+    .tituloPrincipal {
+        position: relative;
+        width: 380px;
+        height: 80px;
+        display: flex;
+
+        h1 {
+            display: flex;
+            position: relative;
+            font-family: $fontacme;
+            font-size: 30px;
+            width: 200px;
+            height: 100px;
+            top: 15px;
+            color: $textoblanco;
+            left: 120px;
+        }
+
+    }
+
+
+    .catalogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        justify-content: space-around;
+        align-content: space-around;
+        padding: 40px;
+        margin: 30px;
+
+        img {
+            width: 140px;
+            height: 190px;
+            padding: 10px;
+        }
+    }
+
+    .cuadroContacto {
+        display: flex;
+        position: relative;
+        padding: 10px;
+        margin: 40px;
+        width: 300px;
+        height: 400px;
+        left: 8px;
+
+        .formularioContacto {
+            background-color: transparent;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            color: white;
+            gap: 10px;
+            margin: 10;
+            top: 45px;
+            width: 200px;
+            height: 200px;
+            left: 43px;
+
+            textarea {
+                width: 200px;
+                height: 50px;
+            }
+        }
+    }
+
+
+
+    footer {
+        background-color: $colorteal;
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        margin-top: 100px;
+
+        .py {
+            display: flex;
+            position: relative;
+            width: 70px;
+            height: 70px;
+            padding: 15px;
+            top: 5px;
+            left: 50px;
+
+        }
+    }
+}
+
 @media (min-width:480px) {
 
     .navColor {
@@ -12,7 +119,6 @@
         position: relative;
         width: 400px;
         height: 400px;
-        top: 80px;
         left: 15px;
         margin: 30px;
     }
@@ -34,6 +140,7 @@
             height: 100px;
             top: 15px;
             color: $textoblanco;
+            left: 170px;
         }
 
     }
@@ -120,7 +227,6 @@
         position: relative;
         width: 410px;
         height: 410px;
-        top: 90px;
         left: 40px;
         margin: 50px;
     }
