@@ -11,12 +11,12 @@
   .botono, .boton {
     display: flex;
     position: relative;
-    font-size: 15px;
-    padding: 4px 24px;
+    font-size: 25px;
+    padding: 1px 23px;
     text-decoration: none;
     text-align: center;
-    width: 120px;
-    height: 30px;
+    width: 160px;
+    height: 40px;
     left: 10px;
   }
 }
@@ -87,7 +87,7 @@
 }
 
 .boton {
-  background-color: #13315c;
+  background-color: #9e2a2b;
   display: flex;
   position: relative;
   color: white;
@@ -136,7 +136,7 @@
 }
 
 footer {
-  background-color: #13315c;
+  background-color: #9e2a2b;
   display: flex;
   flex-direction: row;
   padding: 30px;
@@ -157,7 +157,7 @@ footer .py {
 }
 
 body {
-  background-color: #0b2545;
+  background-color: #540b0e;
   height: 100vh;
 }
 
@@ -189,24 +189,25 @@ body {
 
 /*mapa de las imagenes del carrusel*/
 .map--imgPrincipal1 {
-  background-color: #13315c;
+  background-color: #9e2a2b;
 }
 
 .map--imgPrincipal2 {
-  background-color: #13315c;
+  background-color: #9e2a2b;
 }
 
 .map--imgPrincipal3 {
-  background-color: #13315c;
+  background-color: #9e2a2b;
 }
 
 .navColor {
-  background-color: #13315c;
+  background-color: #9e2a2b;
 }
 
 @media (min-width: 380px) {
   .navColor {
-    background-color: #13315c;
+    background-color: #9e2a2b;
+    color: white;
   }
 
   .imagenPrincipal {
@@ -246,8 +247,8 @@ body {
     margin: 30px;
   }
   .catalogo img {
-    width: 140px;
-    height: 190px;
+    width: 180px;
+    height: 230px;
     padding: 10px;
   }
 
@@ -256,34 +257,42 @@ body {
     position: relative;
     padding: 10px;
     margin: 40px;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     left: 8px;
   }
   .cuadroContacto .formularioContacto {
-    background-color: transparent;
+    background-color: b;
     display: flex;
     position: relative;
     flex-direction: column;
     color: white;
     gap: 10px;
-    margin: 10;
-    top: 45px;
-    width: 200px;
-    height: 200px;
-    left: 43px;
+    margin: 5px;
+    top: 1px;
+    width: 270px;
+    height: 270px;
+    left: 1px;
   }
   .cuadroContacto .formularioContacto textarea {
-    width: 200px;
-    height: 50px;
+    width: 270px;
+    height: 90px;
   }
 
   footer {
-    background-color: #13315c;
+    background-color: #9e2a2b;
     display: flex;
     flex-direction: row;
     padding: 30px;
     margin-top: 100px;
+  }
+  footer .redesSociales {
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    top: 10px;
+    text-align: center;
   }
   footer .py {
     display: flex;
@@ -292,12 +301,13 @@ body {
     height: 70px;
     padding: 15px;
     top: 5px;
-    left: 50px;
+    left: 1px;
+    color: white;
   }
 }
 @media (min-width: 480px) {
   .navColor {
-    background-color: #13315c;
+    background-color: #9e2a2b;
   }
 
   .imagenPrincipal {
@@ -370,7 +380,7 @@ body {
   }
 
   footer {
-    background-color: #13315c;
+    background-color: #9e2a2b;
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -388,7 +398,7 @@ body {
 }
 @media (min-width: 580px) {
   .navColor {
-    background-color: #13315c;
+    background-color: #9e2a2b;
   }
 
   .imagenPrincipal {
@@ -461,7 +471,7 @@ body {
   }
 
   footer {
-    background-color: #13315c;
+    background-color: #9e2a2b;
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -479,7 +489,7 @@ body {
 }
 @media (min-width: 800px) {
   .navColor {
-    background-color: #13315c;
+    background-color: #9e2a2b;
   }
 
   .imagenPrincipal {
@@ -555,7 +565,7 @@ body {
   }
 
   footer {
-    background-color: #13315c;
+    background-color: #9e2a2b;
     display: flex;
     flex-direction: row;
     padding: 40px;
@@ -572,7 +582,7 @@ body {
 }
 @media (min-width: 1024px) {
   .navColor {
-    background-color: #13315c;
+    background-color: #9e2a2b;
   }
 
   .imagenPrincipal {
@@ -646,7 +656,7 @@ body {
   }
 
   footer {
-    background-color: #13315c;
+    background-color: #9e2a2b;
     display: flex;
     flex-direction: row;
     padding: 23px;
@@ -663,7 +673,7 @@ body {
 }
 @media (min-width: 1200px) {
   .navColor {
-    background-color: #13315c;
+    background-color: #9e2a2b;
   }
 
   .imagenPrincipal {
@@ -739,18 +749,28 @@ body {
   }
 
   footer {
-    background-color: #13315c;
+    background-color: #9e2a2b;
     display: flex;
     flex-direction: row;
-    padding: 23px;
+    padding: 50px;
+    margin-top: 30px;
+  }
+  footer .redesSociales {
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: 15px;
+    text-align: center;
+    left: 430px;
   }
   footer .py {
     display: flex;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     padding: 30px;
-    top: 12px;
-    left: 455px;
+    top: 35px;
+    left: 50px;
   }
 }

@@ -5,9 +5,8 @@
 
     .navColor {
         background-color: $colorteal;
+        color: white;
     }
-
- 
 
     .imagenPrincipal {
         display: flex;
@@ -51,8 +50,8 @@
         margin: 30px;
 
         img {
-            width: 140px;
-            height: 190px;
+            width: 180px;
+            height: 230px;
             padding: 10px;
         }
     }
@@ -62,26 +61,26 @@
         position: relative;
         padding: 10px;
         margin: 40px;
-        width: 300px;
-        height: 400px;
+        width: 200px;
+        height: 300px;
         left: 8px;
 
         .formularioContacto {
-            background-color: transparent;
+            background-color: b;
             display: flex;
             position: relative;
             flex-direction: column;
             color: white;
             gap: 10px;
-            margin: 10;
-            top: 45px;
-            width: 200px;
-            height: 200px;
-            left: 43px;
+            margin: 5px;
+            top: 1px;
+            width: 270px;
+            height: 270px;
+            left: 1px;
 
             textarea {
-                width: 200px;
-                height: 50px;
+                width: 270px;
+                height: 90px;
             }
         }
     }
@@ -95,6 +94,16 @@
         padding: 30px;
         margin-top: 100px;
 
+        .redesSociales {
+            display: flex;
+            position: relative;
+            color: white;
+            font-size: 15px;
+            top: 10px;
+            text-align: center;
+
+        }
+
         .py {
             display: flex;
             position: relative;
@@ -102,8 +111,9 @@
             height: 70px;
             padding: 15px;
             top: 5px;
-            left: 50px;
+            left: 1px;
 
+            color: white;
         }
     }
 }
@@ -621,16 +631,27 @@
         background-color: $colorteal;
         display: flex;
         flex-direction: row;
-        padding: 23px;
+        padding: 50px;
+        margin-top: 30px;
+
+        .redesSociales {
+            display: flex;
+            position: relative;
+            color: white;
+            font-size: 30px;
+            top: 15px;
+            text-align: center;
+left: 430px;
+        }
 
         .py {
             display: flex;
             position: relative;
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             padding: 30px;
-            top: 12px;
-            left: 455px;
+            top: 35px;
+            left: 50px;
         }
     }
 
