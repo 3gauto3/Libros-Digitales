@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,900&display=swap");
+.botono, .boton {
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .botono, .boton {
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    padding: 4px 24px;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    left: 10px;
+  }
+}
+@media (min-width: 580px) {
+  .botono, .boton {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    padding: 8px 40px;
+    text-decoration: none;
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    left: 10px;
+  }
+}
+@media (min-width: 800px) {
+  .botono, .boton {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    padding: 8px 28px;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    left: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .botono, .boton {
+    display: flex;
+    position: relative;
+    font-size: 50px;
+    padding: 2px 25px;
+    text-decoration: none;
+    text-align: center;
+    width: 270px;
+    height: 90px;
+    left: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .botono, .boton {
+    display: flex;
+    position: relative;
+    font-size: 50px;
+    padding: 2px 30px;
+    text-decoration: none;
+    text-align: center;
+    width: 298.5px;
+    height: 90px;
+    left: 1px;
+  }
+}
+
+.boton {
+  background-color: #13315c;
+  display: flex;
+  position: relative;
+  color: white;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 40px;
+  margin: 30px;
+}
+.catalogo img {
+  width: 140px;
+  height: 190px;
+  padding: 10px;
+}
+
+.cuadroContacto {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  margin: 40px;
+  width: 300px;
+  height: 400px;
+  left: 50px;
+}
+.cuadroContacto .formularioContacto {
+  background-color: transparent;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10;
+  top: 45px;
+  width: 200px;
+  height: 200px;
+  left: 43px;
+}
+.cuadroContacto .formularioContacto textarea {
+  width: 200px;
+  height: 50px;
+}
+
+footer {
+  background-color: #13315c;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+footer .py {
+  display: flex;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  padding: 15px;
+  top: 5px;
+  left: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #0b2545;
+  height: 100vh;
+}
+
+.tituloPrincipal {
+  position: relative;
+  width: 400px;
+  height: 80px;
+  display: flex;
+}
+.tituloPrincipal h1 {
+  display: flex;
+  position: relative;
+  font-family: "Acme", sans-serif;
+  font-size: 30px;
+  width: 200px;
+  height: 100px;
+  top: 15px;
+  color: white;
+}
+
+.imagenPrincipal {
+  display: flex;
+  position: relative;
+  width: 450px;
+  height: 450px;
+  top: 15px;
+  left: 15px;
+}
+
+/*mapa de las imagenes del carrusel*/
+.map--imgPrincipal1 {
+  background-color: #13315c;
+}
+
+.map--imgPrincipal2 {
+  background-color: #13315c;
+}
+
+.map--imgPrincipal3 {
+  background-color: #13315c;
+}
+
+.navColor {
+  background-color: #13315c;
+}
+
+@media (min-width: 480px) {
+  .navColor {
+    background-color: #13315c;
+  }
+
+  .imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 80px;
+    left: 15px;
+    margin: 30px;
+  }
+
+  .tituloPrincipal {
+    position: relative;
+    width: 400px;
+    height: 80px;
+    display: flex;
+  }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: "Acme", sans-serif;
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    top: 15px;
+    color: white;
+  }
+
+  .catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 40px;
+    margin: 30px;
+  }
+  .catalogo img {
+    width: 140px;
+    height: 190px;
+    padding: 10px;
+  }
+
+  .cuadroContacto {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin: 40px;
+    width: 300px;
+    height: 400px;
+    left: 50px;
+  }
+  .cuadroContacto .formularioContacto {
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10;
+    top: 45px;
+    width: 200px;
+    height: 200px;
+    left: 43px;
+  }
+  .cuadroContacto .formularioContacto textarea {
+    width: 200px;
+    height: 50px;
+  }
+
+  footer {
+    background-color: #13315c;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 100px;
+  }
+  footer .py {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    top: 5px;
+    left: 100px;
+  }
+}
+@media (min-width: 580px) {
+  .navColor {
+    background-color: #13315c;
+  }
+
+  .imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 410px;
+    height: 410px;
+    top: 90px;
+    left: 40px;
+    margin: 50px;
+  }
+
+  .tituloPrincipal {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 80px;
+    left: 30px;
+    bottom: 1px;
+  }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: "Acme", sans-serif;
+    font-size: 40px;
+    width: 190px;
+    height: 50px;
+    color: white;
+  }
+
+  .catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 40px;
+    margin: 30px;
+  }
+  .catalogo img {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .cuadroContacto {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin: 40px;
+    width: 300px;
+    height: 400px;
+    left: 90px;
+  }
+  .cuadroContacto .formularioContacto {
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    left: 40px;
+  }
+  .cuadroContacto .formularioContacto textarea {
+    width: 200px;
+    height: 50px;
+  }
+
+  footer {
+    background-color: #13315c;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 110px;
+  }
+  footer .py {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    top: 5px;
+    left: 140px;
+  }
+}
+@media (min-width: 800px) {
+  .navColor {
+    background-color: #13315c;
+  }
+
+  .imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 500px;
+    padding: 50px;
+    top: 20px;
+    left: 1px;
+    margin: 60px;
+  }
+
+  .tituloPrincipal {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 70px;
+    left: 135px;
+    bottom: 5px;
+  }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: "Acme", sans-serif;
+    font-size: 40px;
+    width: 190px;
+    height: 50px;
+    color: white;
+  }
+
+  .catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 50px;
+    margin: 40px;
+    left: 10px;
+  }
+  .catalogo img {
+    width: 170px;
+    height: 240px;
+    padding: 10px;
+  }
+
+  .cuadroContacto {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin: 60px;
+    width: 570px;
+    height: 350px;
+    left: 55px;
+  }
+  .cuadroContacto .formularioContacto {
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    top: 1px;
+    width: 450px;
+    height: 200px;
+    left: 40px;
+  }
+  .cuadroContacto .formularioContacto textarea {
+    width: 450px;
+    height: 50px;
+  }
+
+  footer {
+    background-color: #13315c;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+  }
+  footer .py {
+    display: flex;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    top: 10px;
+    left: 210px;
+  }
+}
+@media (min-width: 1024px) {
+  .navColor {
+    background-color: #13315c;
+  }
+
+  .imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    padding: 40px;
+    top: 3px;
+    left: 122px;
+    margin: 15px;
+  }
+
+  .tituloPrincipal {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 70px;
+    left: 235px;
+    bottom: 5px;
+  }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: "Acme", sans-serif;
+    font-size: 40px;
+    width: 190px;
+    height: 50px;
+    color: white;
+  }
+
+  .catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 20px;
+    margin: 30px;
+  }
+  .catalogo img {
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+  }
+
+  .cuadroContacto {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    margin: 40px;
+    width: 700px;
+    height: 400px;
+    left: 130px;
+  }
+  .cuadroContacto .formularioContacto {
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 5px;
+    top: 5px;
+    width: 550px;
+    height: 500px;
+    left: 60px;
+  }
+  .cuadroContacto .formularioContacto textarea {
+    width: 550px;
+    height: 100px;
+  }
+
+  footer {
+    background-color: #13315c;
+    display: flex;
+    flex-direction: row;
+    padding: 23px;
+  }
+  footer .py {
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    top: 12px;
+    left: 315px;
+  }
+}
+@media (min-width: 1200px) {
+  .navColor {
+    background-color: #13315c;
+  }
+
+  .imagenPrincipal {
+    display: flex;
+    position: relative;
+    width: 900px;
+    height: 600px;
+    padding: 100px;
+    top: 3px;
+    left: 205px;
+    margin: 15px;
+  }
+
+  .tituloPrincipal {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 70px;
+    bottom: 5px;
+    left: 380px;
+  }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: "Acme", sans-serif;
+    font-size: 40px;
+    width: 190px;
+    height: 50px;
+    color: white;
+  }
+
+  .catalogo {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 60px;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 50px;
+    left: 15px;
+  }
+  .catalogo img {
+    width: 300px;
+    height: 400px;
+    padding: 1px;
+  }
+
+  .cuadroContacto {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    margin: 40px;
+    width: 1000px;
+    height: 500px;
+    left: 130px;
+  }
+  .cuadroContacto .formularioContacto {
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 50px;
+    top: 15px;
+    width: 700px;
+    height: 50px;
+    left: 95px;
+    color: white;
+  }
+  .cuadroContacto .formularioContacto textarea {
+    width: 700px;
+    height: 100px;
+  }
+
+  footer {
+    background-color: #13315c;
+    display: flex;
+    flex-direction: row;
+    padding: 23px;
+  }
+  footer .py {
+    display: flex;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    top: 12px;
+    left: 455px;
+  }
+}
