@@ -22,7 +22,7 @@
     display: flex;
     position: relative;
     font-size: 20px;
-    padding: 2px 30px;
+    padding: 2px 35px;
     margin: 0;
     border-radius: 15px;
     text-decoration: none;
@@ -30,8 +30,8 @@
     width: 210px;
     height: 40px;
     bottom: 0;
-    top: 6px;
-    left: 15px; } }
+    top: 20px;
+    left: 10px; } }
 
 * {
   padding: 0;
@@ -90,11 +90,11 @@ body {
     top: 30px; }
     .informacion .infoH3 {
       display: flex;
-      padding: 50px;
-      width: 300px;
+      padding: 50px 60px;
+      width: 340px;
       font-size: 20px;
       font-family: .informacion .infoH3 fontarial;
-      left: 450px;
+      left: 500px;
       top: 20px;
       align-items: center; }
   .tituloPrincipal {
@@ -128,7 +128,7 @@ body {
     .tituloGenero h2 {
       display: flex;
       position: relative;
-      left: 30px;
+      left: 40px;
       top: 5px;
       font-size: 40px; }
   .catalogo {
@@ -154,7 +154,7 @@ body {
         border-radius: 20px;
         display: flex;
         position: relative;
-        width: 150px;
+        width: 155px;
         height: 220px;
         left: 0;
         top: 0; }
@@ -196,10 +196,11 @@ body {
       position: relative;
       flex-direction: column;
       margin: 50px;
-      top: 70px;
+      top: 17px;
       width: 235px;
       height: 30px;
       left: 0;
+      gap: 15px;
       color: white; }
       .cuadroContacto .formularioContacto textarea {
         width: 235px;
@@ -275,15 +276,15 @@ body {
     text-align: center;
     left: 0;
     font-size: 15px;
-    color: white; }
+    color: white;
+    right: 30px; }
     .informacion .infoH3 {
       display: flex;
-      padding: 50px;
-      width: 400px;
+      padding: 50px 500px;
+      width: 1290px;
       font-size: 20px;
       font-family: .informacion .infoH3 fontarial;
-      left: 400px;
-      align-items: center; }
+      left: 500px; }
   .tituloPrincipal {
     border-right: 0 50px 50px 0;
     display: flex;
@@ -315,8 +316,8 @@ body {
     .tituloGenero h2 {
       display: flex;
       position: relative;
-      left: 330px;
-      top: 20px;
+      left: 500px;
+      top: 0;
       font-size: 40px; }
   .catalogo {
     display: grid;
@@ -326,12 +327,13 @@ body {
     justify-content: space-around;
     align-content: space-around;
     padding: 120px;
-    left: 15px; }
+    gap: 70px;
+    left: 500px; }
     .catalogo .imgLibros {
       background-color: #580104;
       border: solid white;
-      width: 240px;
-      height: 400px;
+      width: 260px;
+      height: 430px;
       padding: 10;
       border-radius: 20px;
       margin: 20px; }
@@ -342,7 +344,7 @@ body {
         border-radius: 20px;
         display: flex;
         position: relative;
-        width: 220px;
+        width: 225px;
         height: 300px;
         left: 5px;
         top: 0; }
@@ -353,7 +355,7 @@ body {
         font-family: Arial, Helvetica, sans-serif;
         padding: 0;
         margin: 0;
-        font-size: 14px;
+        font-size: 16px;
         left: 8px; }
       .catalogo .imgLibros .texto2 {
         display: flex;
@@ -362,9 +364,9 @@ body {
         padding: 0;
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 14px;
         bottom: 20px;
-        top: 0;
+        top: 15px;
         left: 8px; }
   .cuadroContacto {
     border: solid white;
@@ -373,9 +375,9 @@ body {
     position: relative;
     padding: 5px;
     margin: 30px;
-    width: 700px;
+    width: 900px;
     height: 430px;
-    left: 142px;
+    left: 200px;
     transition: 1s;
     top: 0; }
     .cuadroContacto .formularioContacto {
@@ -384,26 +386,27 @@ body {
       flex-direction: column;
       margin: 50px;
       top: 0;
-      width: 530px;
+      width: 700px;
       height: 50px;
-      left: 30px;
-      color: white; }
+      left: 40px;
+      color: white;
+      gap: 10px; }
       .cuadroContacto .formularioContacto textarea {
-        width: 530px;
+        width: 700px;
         height: 50px; }
   .piePagina {
     background-color: #7e0814;
     display: flex;
     position: relative;
-    padding: 30px; }
+    padding: 40px; }
     .piePagina .py {
       display: flex;
       position: relative;
       width: 100px;
       height: 100px;
       padding: 20px;
-      top: 35px;
-      left: 430px;
+      left: 450px;
+      bottom: 0;
       transition: 1s; }
       .piePagina .py:hover {
         transform: scale(1.1); }

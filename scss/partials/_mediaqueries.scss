@@ -65,11 +65,11 @@
 
         .infoH3 {
             display: flex;
-            padding: 50px;
-            width: 300px;
+            padding: 50px 60px;
+            width: 340px;
             font-size: 20px;
             font-family: &fontarial;
-            left: 450px;
+            left: 500px;
 top: 20px;
             align-items: center;
         }
@@ -118,7 +118,7 @@ top: 20px;
         h2 {
             display: flex;
             position: relative;
-            left: 30px;
+            left: 40px;
             top: 5px;
             font-size: 40px;
         }
@@ -148,7 +148,7 @@ top: 0;
                 border-radius: 20px;
                 display: flex;
                 position: relative;
-                width: 150px;
+                width: 155px;
                 height: 220px;
                 left: 0;
                 top: 0;
@@ -205,10 +205,11 @@ top: 0;
             position: relative;
             flex-direction: column;
             margin: 50px;
-            top: 70px;
+            top: 17px;
             width: 235px;
             height: 30px;
             left: 0;
+            gap: 15px;
             color: white;
 
 
@@ -315,16 +316,15 @@ top: 0;
         left: 0;
         font-size: 15px;
         color: $textoblanco;
+        right: 30px;
 
         .infoH3 {
             display: flex;
-            padding: 50px;
-            width: 400px;
+            padding: 50px 500px;
+            width: 1290px;
             font-size: 20px;
             font-family: &fontarial;
-            left: 400px;
-
-            align-items: center;
+            left: 500px;
         }
 
     }
@@ -370,8 +370,8 @@ top: 0;
         h2 {
             display: flex;
             position: relative;
-            left: 330px;
-            top: 20px;
+            left: 500px;
+            top: 0;
             font-size: 40px;
         }
     }
@@ -384,13 +384,14 @@ top: 0;
         justify-content: space-around;
         align-content: space-around;
         padding: 120px;
-        left: 15px;
+        gap: 70px;
+        left: 500px;
 
         .imgLibros {
             background-color: $colorcoral;
             border: solid $textoblanco;
-            width: 240px;
-            height: 400px;
+            width: 260px;
+            height: 430px;
             padding: 10;
             border-radius: 20px;
             margin: 20px;
@@ -404,7 +405,7 @@ top: 0;
                 border-radius: 20px;
                 display: flex;
                 position: relative;
-                width: 220px;
+                width: 225px;
                 height: 300px;
                 left: 5px;
                 top: 0;
@@ -419,7 +420,7 @@ top: 0;
                     sans-serif;
                 padding: 0;
                 margin: 0;
-                font-size: 14px;
+                font-size: 16px;
                 left: 8px;
 
             }
@@ -433,9 +434,9 @@ top: 0;
                 font-family: Arial,
                     Helvetica,
                     sans-serif;
-                font-size: 12px;
+                font-size: 14px;
                 bottom: 20px;
-                top: 0;
+                top: 15px;
                 left: 8px;
             }
 
@@ -449,9 +450,9 @@ top: 0;
         position: relative;
         padding: 5px;
         margin: 30px;
-        width: 700px;
+        width: 900px;
         height: 430px;
-        left: 142px;
+        left: 200px;
         transition: 1s;
         top: 0;
 
@@ -461,14 +462,15 @@ top: 0;
             flex-direction: column;
             margin: 50px;
             top: 0;
-            width: 530px;
+            width: 700px;
             height: 50px;
-            left: 30px;
+            left: 40px;
             color: white;
+            gap: 10px;
 
 
             textarea {
-                width: 530px;
+                width: 700px;
                 height: 50px;
             }
         }
@@ -480,7 +482,7 @@ top: 0;
         background-color: $colorteal;
         display: flex;
         position: relative;
-        padding: 30px;
+        padding: 40px;
 
         .py {
             display: flex;
@@ -488,8 +490,8 @@ top: 0;
             width: 100px;
             height: 100px;
             padding: 20px;
-            top: 35px;
-            left: 430px;
+            left: 450px;
+            bottom: 0;
             transition: 1s;
 
             &:hover {
