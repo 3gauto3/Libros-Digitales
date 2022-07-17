@@ -1,7 +1,7 @@
 @import '../base/variables';
 
 
-@media (min-width: 380px) {
+@media (min-width: 410px) {
 
     .navColor {
         background-color: $colorteal;
@@ -23,7 +23,7 @@
         top: 30px;
         padding: 10px;
         margin: 20px;
-        left: 20px;
+        left: 40px;
         width: 300px;
         text-align:center;
 
@@ -41,13 +41,13 @@
         padding: 0;
         width: 320px;
         top: 70px;
-        left: 30px;
+        left: 35px;
         flex-direction: column;
 
         img {
             border: solid $textoblanco;
             border-radius: 40px;
-            width: 320px;
+            width: 340px;
             height: 300px;
         }
     }
@@ -58,7 +58,7 @@
         padding: 30px;
         margin: 5px;
         text-align: center;
-        left: 0;
+        left: 5px;
         font-size: 15px;
         color: $textoblanco;
         top: 30px;
@@ -69,8 +69,8 @@
             width: 300px;
             font-size: 20px;
             font-family: &fontarial;
-            left: 400px;
-
+            left: 450px;
+top: 20px;
             align-items: center;
         }
 
@@ -110,7 +110,7 @@
         color: $textoblanco;
         bottom: 0;
         left: 0;
-        top: 50px;
+        top: 80px;
 
         text-shadow: 0 0 30px $colorresalteado;
 
@@ -118,7 +118,7 @@
         h2 {
             display: flex;
             position: relative;
-            left: 20px;
+            left: 30px;
             top: 5px;
             font-size: 40px;
         }
@@ -127,19 +127,19 @@
     .catalogo {
         display: grid;
         position: relative;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         justify-content: space-around;
         align-content: space-around;
-        padding: 70px;
-        left: 40px;
+        padding: 160px;
+        left: 45px;
 width: 300px;
-top: 30px;
+top: 0;
         .imgLibros {
             background-color: $colorcoral;
             border: solid $textoblanco;
-            width: 260px;
-            height: 440px;
+            width: 180px;
+            height: 340px;
             padding: 10px;
             border-radius: 20px;
             margin: 20px;
@@ -148,8 +148,8 @@ top: 30px;
                 border-radius: 20px;
                 display: flex;
                 position: relative;
-                width: 230px;
-                height: 300px;
+                width: 150px;
+                height: 220px;
                 left: 0;
                 top: 0;
             }
@@ -163,7 +163,7 @@ top: 30px;
                     sans-serif;
                 padding: 0;
                 margin: 0;
-                font-size: 17px;
+                font-size: 12px;
                 left: 8px;
                 top: 10px;
 
@@ -178,7 +178,7 @@ top: 30px;
                 font-family: Arial,
                     Helvetica,
                     sans-serif;
-                font-size: 15px;
+                font-size: 10px;
                 bottom: 20px;
                 top: 10px;
                 left: 8px;
@@ -194,7 +194,7 @@ top: 30px;
         position: relative;
         padding: 5px;
         margin: 30px;
-        width: 320px;
+        width: 350px;
         height: 500px;
         left: 0;
         transition: 1s;
@@ -206,14 +206,14 @@ top: 30px;
             flex-direction: column;
             margin: 50px;
             top: 70px;
-            width: 200px;
+            width: 235px;
             height: 30px;
             left: 0;
             color: white;
 
 
             textarea {
-                width: 200px;
+                width: 235px;
                 height: 50px;
             }
         }
@@ -234,7 +234,7 @@ top: 30px;
             width: 40px;
             height: 40px;
             padding: 30px;
-            left: 10px;
+            left: 25px;
             bottom: 30px;
 
             img {
