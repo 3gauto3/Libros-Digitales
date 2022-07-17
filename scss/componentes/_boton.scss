@@ -1,8 +1,37 @@
-        .boton {
+       @import '../base/variables';
+       
+       .boton {
+            @media (min-width:380px) {
+                background-color: $colornegro;
+                border-radius: 20px;
+                color: white;
+                display: flex;
+                position: relative;
+                font-size: 20px;
+                padding: 2px 30px;
+                text-decoration: none;
+                text-align: center;
+                width: 200px;
+                height: 40px;
+                left: 15px;
+                top: 20px;
+            }
 
-            @extend .botono;
-            background-color:#9e2a2b;
-            display: flex;
-            position: relative;
-            color: white;
+            @media (min-width:1200px) {
+                background-color: $colornegro;
+                color: white;
+                display: flex;
+                position: relative;
+                font-size: 20px;
+                padding: 2px 30px;
+                margin: 0;
+                border-radius: 15px;
+                text-decoration: none;
+                text-align: center;
+                width: 210px;
+                height: 40px;
+                bottom: 0;
+                top: 6px;
+                left: 15px;
+            }
         }

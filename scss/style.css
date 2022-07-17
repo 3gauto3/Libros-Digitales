@@ -1,14 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,900&display=swap");
-.botono, .boton {
-  display: flex;
-  position: relative;
-  font-size: 30px;
-  padding: 8px 15px;
-  text-decoration: none;
-  text-align: center;
-}
 @media (min-width: 380px) {
-  .botono, .boton {
+  .boton {
+    background-color: #723605;
+    color: white;
     display: flex;
     position: relative;
     font-size: 25px;
@@ -21,7 +15,9 @@
   }
 }
 @media (min-width: 480px) {
-  .botono, .boton {
+  .boton {
+    background-color: #723605;
+    color: white;
     display: flex;
     position: relative;
     font-size: 15px;
@@ -34,7 +30,9 @@
   }
 }
 @media (min-width: 580px) {
-  .botono, .boton {
+  .boton {
+    background-color: #723605;
+    color: white;
     display: flex;
     position: relative;
     font-size: 20px;
@@ -47,7 +45,9 @@
   }
 }
 @media (min-width: 800px) {
-  .botono, .boton {
+  .boton {
+    background-color: #723605;
+    color: white;
     display: flex;
     position: relative;
     font-size: 20px;
@@ -60,37 +60,57 @@
   }
 }
 @media (min-width: 1024px) {
-  .botono, .boton {
+  .boton {
+    background-color: #723605;
+    border-radius: 10px;
+    color: white;
     display: flex;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     padding: 2px 25px;
     text-decoration: none;
     text-align: center;
     width: 270px;
-    height: 90px;
+    height: 50px;
     left: 15px;
+    bottom: 15px;
   }
 }
 @media (min-width: 1200px) {
-  .botono, .boton {
+  .boton {
+    background-color: black;
+    color: white;
     display: flex;
     position: relative;
-    font-size: 50px;
+    font-size: 20px;
     padding: 2px 30px;
+    margin: 0;
+    border-radius: 15px;
     text-decoration: none;
     text-align: center;
-    width: 298.5px;
-    height: 90px;
-    left: 1px;
+    width: 210px;
+    height: 40px;
+    bottom: 0;
+    top: 6px;
+    left: 20px;
   }
 }
 
-.boton {
-  background-color: #9e2a2b;
-  display: flex;
-  position: relative;
-  color: white;
+@media (min-width: 1200px) {
+  .botonInicio {
+    background-color: #723605;
+    color: white;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    padding: 2px 90px;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 320px;
+    height: 40px;
+    top: 385px;
+    right: 200px;
+  }
 }
 
 .catalogo {
@@ -136,7 +156,7 @@
 }
 
 footer {
-  background-color: #9e2a2b;
+  background-color: #723605;
   display: flex;
   flex-direction: row;
   padding: 30px;
@@ -157,8 +177,9 @@ footer .py {
 }
 
 body {
-  background-color: #540b0e;
-  height: 100vh;
+  background-color: #8d4103;
+  size: 100vh;
+  color: white;
 }
 
 .tituloPrincipal {
@@ -170,7 +191,7 @@ body {
 .tituloPrincipal h1 {
   display: flex;
   position: relative;
-  font-family: "Acme", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   width: 200px;
   height: 100px;
@@ -201,23 +222,65 @@ body {
 }
 
 .navColor {
-  background-color: #9e2a2b;
+  background-color: #723605;
 }
 
 @media (min-width: 380px) {
   .navColor {
-    background-color: #9e2a2b;
+    background-color: #723605;
     color: white;
+    border-radius: 0 0 20px 20px;
   }
-
-  .imagenPrincipal {
+  .textoNav {
     display: flex;
     position: relative;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 8px;
+  }
+  .tituloCarrusel {
+    display: flex;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    margin: 20px;
+    left: 15px;
     width: 300px;
-    height: 300px;
+    text-align: center;
+  }
+  .tituloCarrusel h2 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .imagenPrincipal {
+    background-color: #723605;
+    border-radius: 20px;
+    border: solid #723605;
+    display: flex;
+    position: relative;
+    width: 290px;
+    height: 250px;
     left: 40px;
   }
-
+  .informacion {
+    display: flex;
+    position: relative;
+    font-size: 13px;
+    width: 300px;
+    height: 800px;
+    left: 40px;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .informacion .infoH3 {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0 15px 0;
+  }
   .tituloPrincipal {
     position: relative;
     width: 380px;
@@ -227,15 +290,14 @@ body {
   .tituloPrincipal h1 {
     display: flex;
     position: relative;
-    font-family: "Acme", sans-serif;
-    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
     width: 200px;
     height: 100px;
     top: 15px;
     color: white;
-    left: 120px;
+    left: 75px;
   }
-
   .catalogo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -251,7 +313,6 @@ body {
     height: 230px;
     padding: 10px;
   }
-
   .cuadroContacto {
     display: flex;
     position: relative;
@@ -278,9 +339,8 @@ body {
     width: 270px;
     height: 90px;
   }
-
   footer {
-    background-color: #9e2a2b;
+    background-color: #723605;
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -295,6 +355,7 @@ body {
     text-align: center;
   }
   footer .py {
+    background-color: aqua;
     display: flex;
     position: relative;
     width: 70px;
@@ -307,9 +368,14 @@ body {
 }
 @media (min-width: 480px) {
   .navColor {
-    background-color: #9e2a2b;
+    background-color: #723605;
   }
-
+  .textoNav {
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+  }
   .imagenPrincipal {
     display: flex;
     position: relative;
@@ -318,7 +384,6 @@ body {
     left: 15px;
     margin: 30px;
   }
-
   .tituloPrincipal {
     position: relative;
     width: 400px;
@@ -328,7 +393,7 @@ body {
   .tituloPrincipal h1 {
     display: flex;
     position: relative;
-    font-family: "Acme", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     width: 200px;
     height: 100px;
@@ -336,7 +401,6 @@ body {
     color: white;
     left: 170px;
   }
-
   .catalogo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -352,7 +416,6 @@ body {
     height: 190px;
     padding: 10px;
   }
-
   .cuadroContacto {
     display: flex;
     position: relative;
@@ -378,13 +441,20 @@ body {
     width: 200px;
     height: 50px;
   }
-
   footer {
-    background-color: #9e2a2b;
+    background-color: #723605;
     display: flex;
     flex-direction: row;
     padding: 30px;
     margin-top: 100px;
+  }
+  footer .redesSociales {
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 10px;
+    text-align: center;
   }
   footer .py {
     display: flex;
@@ -393,14 +463,13 @@ body {
     height: 70px;
     padding: 15px;
     top: 5px;
-    left: 100px;
+    left: 1px;
   }
 }
 @media (min-width: 580px) {
   .navColor {
-    background-color: #9e2a2b;
+    background-color: #723605;
   }
-
   .imagenPrincipal {
     display: flex;
     position: relative;
@@ -409,7 +478,6 @@ body {
     left: 40px;
     margin: 50px;
   }
-
   .tituloPrincipal {
     display: flex;
     position: relative;
@@ -421,13 +489,12 @@ body {
   .tituloPrincipal h1 {
     display: flex;
     position: relative;
-    font-family: "Acme", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     width: 190px;
     height: 50px;
     color: white;
   }
-
   .catalogo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -443,7 +510,6 @@ body {
     height: 300px;
     padding: 10px;
   }
-
   .cuadroContacto {
     display: flex;
     position: relative;
@@ -469,29 +535,35 @@ body {
     width: 200px;
     height: 50px;
   }
-
   footer {
-    background-color: #9e2a2b;
+    background-color: #723605;
     display: flex;
     flex-direction: row;
     padding: 30px;
     margin-top: 110px;
   }
+  footer .redesSociales {
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    top: 10px;
+    text-align: center;
+  }
   footer .py {
     display: flex;
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     padding: 15px;
     top: 5px;
-    left: 140px;
+    left: 1px;
   }
 }
 @media (min-width: 800px) {
   .navColor {
-    background-color: #9e2a2b;
+    background-color: #723605;
   }
-
   .imagenPrincipal {
     display: flex;
     position: relative;
@@ -502,7 +574,6 @@ body {
     left: 1px;
     margin: 60px;
   }
-
   .tituloPrincipal {
     display: flex;
     position: relative;
@@ -514,13 +585,12 @@ body {
   .tituloPrincipal h1 {
     display: flex;
     position: relative;
-    font-family: "Acme", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     width: 190px;
     height: 50px;
     color: white;
   }
-
   .catalogo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -537,7 +607,6 @@ body {
     height: 240px;
     padding: 10px;
   }
-
   .cuadroContacto {
     display: flex;
     position: relative;
@@ -563,12 +632,20 @@ body {
     width: 450px;
     height: 50px;
   }
-
   footer {
-    background-color: #9e2a2b;
+    background-color: #723605;
     display: flex;
     flex-direction: row;
     padding: 40px;
+  }
+  footer .redesSociales {
+    display: flex;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top: 1px;
+    left: 265px;
+    text-align: center;
   }
   footer .py {
     display: flex;
@@ -576,201 +653,449 @@ body {
     width: 90px;
     height: 90px;
     padding: 20px;
-    top: 10px;
-    left: 210px;
+    top: 30px;
+    left: 1px;
   }
 }
 @media (min-width: 1024px) {
   .navColor {
-    background-color: #9e2a2b;
+    background-color: #723605;
+    height: 150px;
+    border-radius: 0 0 50px 50px;
   }
-
-  .imagenPrincipal {
+  .textoNav {
     display: flex;
     position: relative;
-    width: 800px;
-    height: 600px;
-    padding: 40px;
-    top: 3px;
-    left: 122px;
-    margin: 15px;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 8px;
   }
-
-  .tituloPrincipal {
+  .textoNav:hover {
+    transform: scale(1.1);
+    background-color: #8d4103;
+    box-shadow: 0 0 30px #8d4103;
+    border-radius: 15px;
+  }
+  .tituloCarrusel {
+    background-color: black;
     display: flex;
     position: relative;
-    width: 400px;
-    height: 70px;
-    left: 235px;
-    bottom: 5px;
+    top: 50px;
+    padding: 10px;
+    margin: 20px;
+    left: 150px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  .tituloPrincipal h1 {
-    display: flex;
-    position: relative;
-    font-family: "Acme", sans-serif;
-    font-size: 40px;
-    width: 190px;
-    height: 50px;
-    color: white;
-  }
-
-  .catalogo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 30px;
-    justify-content: space-around;
-    align-content: space-around;
-    padding: 20px;
-    margin: 30px;
-  }
-  .catalogo img {
-    width: 300px;
-    height: 400px;
-    padding: 15px;
-  }
-
-  .cuadroContacto {
-    display: flex;
-    position: relative;
-    padding: 5px;
-    margin: 40px;
-    width: 700px;
-    height: 400px;
-    left: 130px;
-  }
-  .cuadroContacto .formularioContacto {
-    background-color: transparent;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    margin: 5px;
-    top: 5px;
-    width: 550px;
-    height: 500px;
-    left: 60px;
-  }
-  .cuadroContacto .formularioContacto textarea {
-    width: 550px;
-    height: 100px;
-  }
-
-  footer {
-    background-color: #9e2a2b;
-    display: flex;
-    flex-direction: row;
-    padding: 23px;
-  }
-  footer .py {
-    display: flex;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    padding: 30px;
-    top: 12px;
-    left: 315px;
-  }
-}
-@media (min-width: 1200px) {
-  .navColor {
-    background-color: #9e2a2b;
-  }
-
-  .imagenPrincipal {
-    display: flex;
-    position: relative;
-    width: 900px;
-    height: 600px;
-    padding: 100px;
-    top: 3px;
-    left: 205px;
-    margin: 15px;
-  }
-
-  .tituloPrincipal {
-    display: flex;
-    position: relative;
-    width: 400px;
-    height: 70px;
-    bottom: 5px;
-    left: 380px;
-  }
-  .tituloPrincipal h1 {
-    display: flex;
-    position: relative;
-    font-family: "Acme", sans-serif;
-    font-size: 40px;
-    width: 190px;
-    height: 50px;
-    color: white;
-  }
-
-  .catalogo {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 60px;
-    justify-content: space-around;
-    align-content: space-around;
-    padding: 50px;
-    left: 15px;
-  }
-  .catalogo img {
-    width: 300px;
-    height: 400px;
-    padding: 1px;
-  }
-
-  .cuadroContacto {
-    display: flex;
-    position: relative;
-    padding: 5px;
-    margin: 40px;
-    width: 1000px;
-    height: 500px;
-    left: 130px;
-  }
-  .cuadroContacto .formularioContacto {
-    background-color: transparent;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    margin: 50px;
-    top: 15px;
-    width: 700px;
-    height: 50px;
-    left: 95px;
-    color: white;
-  }
-  .cuadroContacto .formularioContacto textarea {
-    width: 700px;
-    height: 100px;
-  }
-
-  footer {
-    background-color: #9e2a2b;
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-    margin-top: 30px;
-  }
-  footer .redesSociales {
-    display: flex;
-    position: relative;
-    color: white;
-    font-size: 30px;
-    top: 15px;
+  .tituloCarrusel h2 {
+    font-size: 20px;
     text-align: center;
-    left: 430px;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  footer .py {
+  .imagenPrincipal {
+    background-color: #723605;
+    border-radius: 60px;
+    border: solid #723605;
     display: flex;
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 620px;
+    height: 350px;
+    padding: 0;
+    top: 90px;
+    left: 150px;
+  }
+  .informacion {
+    background-color: black;
+    display: flex;
+    position: relative;
     padding: 30px;
-    top: 35px;
+    margin: 20px;
+    top: 30px;
+    width: 750px;
+    height: 600px;
+    text-align: center;
+    left: 100px;
+    font-size: 15px;
+  }
+  .informacion .infoH3 {
+    padding: 20px;
+    font-size: 20px;
+    font-family: .informacion .infoH3 fontarial;
+  }
+  .tituloPrincipal {
+    border-right: 0 50px 50px 0;
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 50px;
+    bottom: 120px;
+    right: 0;
     left: 50px;
   }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 190px;
+    height: 50px;
+    top: 127px;
+    left: 0;
+    color: white;
+  }
+  .tituloGenero {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    top: 50px;
+    text-shadow: 0 0 30px black;
+  }
+  .tituloGenero h2 {
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 20px;
+  }
+  .catalogo {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 120px;
+    left: 15px;
+  }
+  .catalogo .imgLibros {
+    background-color: #8d4103;
+    border: solid white;
+    width: 260px;
+    height: 420px;
+    padding: 10;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 1s;
+  }
+  .catalogo .imgLibros:hover {
+    transform: scale(1.1);
+  }
+  .catalogo .imgLibros img {
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    width: 240px;
+    height: 310px;
+    left: 5px;
+    top: 0;
+  }
+  .catalogo .imgLibros .texto1 {
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    left: 8px;
+  }
+  .catalogo .imgLibros .texto2 {
+    display: flex;
+    position: relative;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    bottom: 20px;
+    top: 0;
+    left: 8px;
+  }
+}
+.cuadroContacto {
+  background-color: #8d4103;
+  border: solid white;
+  border-radius: 70px;
+  display: flex;
+  position: relative;
+  padding: 5px;
+  margin: 40px;
+  width: 800px;
+  height: 450px;
+  left: 240px;
+  transition: 1s;
+  box-shadow: 0 0 30px black;
+}
+.cuadroContacto:hover {
+  transform: scale(1.1);
+}
+.cuadroContacto .formularioContacto {
+  background-color: transparent;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 50px;
+  top: 5px;
+  width: 590px;
+  height: 50px;
+  left: 45px;
+  color: white;
+}
+.cuadroContacto .formularioContacto textarea {
+  width: 590px;
+  height: 70px;
+}
+
+footer {
+  background-color: #723605;
+  display: flex;
+  position: relative;
+  padding: 10px;
+}
+footer .redesSociales {
+  display: flex;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  left: 200px;
+  height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .py {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  transition: 1s;
+}
+footer .py:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 1200px) {
+  .navColor {
+    background-color: #723605;
+    height: 150px;
+    border-radius: 0 0 50px 50px;
+  }
+  .textoNav {
+    display: flex;
+    position: relative;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    left: 0;
+  }
+  .textoNav:hover {
+    transform: scale(1.1);
+    background-color: #8d4103;
+    box-shadow: 0 0 30px #8d4103;
+    border-radius: 15px;
+  }
+  .tituloCarrusel {
+    display: flex;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    margin: 20px;
+    left: 320px;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .tituloCarrusel h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .imagenPrincipal {
+    background-color: #723605;
+    border-radius: 60px;
+    border: solid #723605;
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 400px;
+    padding: 0;
+    top: 90px;
+    left: 300px;
+  }
+  .informacion {
+    display: flex;
+    position: relative;
+    padding: 30px;
+    margin: 40px;
+    top: 30px;
+    width: 1000px;
+    text-align: center;
+    left: 100px;
+    font-size: 18px;
+  }
+  .informacion .infoH3 {
+    padding: 30px;
+    font-size: 25px;
+    font-family: .informacion .infoH3 fontarial;
+  }
+  .tituloPrincipal {
+    border-right: 0 50px 50px 0;
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 50px;
+    bottom: 120px;
+    right: 0;
+    left: 50px;
+  }
+  .tituloPrincipal h1 {
+    display: flex;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 190px;
+    height: 50px;
+    top: 127px;
+    left: 0;
+    color: white;
+  }
+  .tituloGenero {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    top: 50px;
+    text-shadow: 0 0 30px black;
+  }
+  .tituloGenero h2 {
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 20px;
+  }
+  .catalogo {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 120px;
+    left: 15px;
+  }
+  .catalogo .imgLibros {
+    background-color: #8d4103;
+    border: solid white;
+    width: 260px;
+    height: 420px;
+    padding: 10;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 1s;
+  }
+  .catalogo .imgLibros:hover {
+    transform: scale(1.1);
+  }
+  .catalogo .imgLibros img {
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    width: 240px;
+    height: 310px;
+    left: 5px;
+    top: 0;
+  }
+  .catalogo .imgLibros .texto1 {
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    left: 8px;
+  }
+  .catalogo .imgLibros .texto2 {
+    display: flex;
+    position: relative;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    bottom: 20px;
+    top: 0;
+    left: 8px;
+  }
+}
+.cuadroContacto {
+  background-color: #8d4103;
+  border: solid white;
+  border-radius: 70px;
+  display: flex;
+  position: relative;
+  padding: 5px;
+  margin: 40px;
+  width: 800px;
+  height: 450px;
+  left: 240px;
+  transition: 1s;
+  box-shadow: 0 0 30px black;
+}
+.cuadroContacto:hover {
+  transform: scale(1.1);
+}
+.cuadroContacto .formularioContacto {
+  background-color: transparent;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 50px;
+  top: 5px;
+  width: 590px;
+  height: 50px;
+  left: 45px;
+  color: white;
+}
+.cuadroContacto .formularioContacto textarea {
+  width: 590px;
+  height: 70px;
+}
+
+footer {
+  background-color: #723605;
+  display: flex;
+  flex-direction: row;
+  padding: 35px;
+  margin-top: 30px;
+}
+footer .redesSociales {
+  display: flex;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: 15px;
+  text-align: center;
+  left: 470px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .py {
+  display: flex;
+  position: relative;
+  width: 110px;
+  height: 110px;
+  padding: 30px;
+  top: 35px;
+  left: 160px;
+  transition: 1s;
+}
+footer .py:hover {
+  transform: scale(1.2);
 }

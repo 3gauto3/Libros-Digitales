@@ -1,16 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,900&display=swap");
 
 @import "base/variables";
-@import "base/mixin";
-@import "base/extend";
 
 @import "componentes/boton";
 
-@import "partials/catalogo";
-@import "partials/contacto";
-@import "partials/footer";
 @import "partials/generales";
-@import "partials/header";
-@import "partials/inicio";
-@import "partials/navbar";
 @import "partials/mediaqueries";

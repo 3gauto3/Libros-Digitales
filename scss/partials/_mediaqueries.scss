@@ -1,582 +1,378 @@
 @import '../base/variables';
 
 
-@media (min-width:380px) {
+@media (min-width: 380px) {
 
     .navColor {
         background-color: $colorteal;
-        color: white;
+        border-radius: 0 0 20px 20px;
     }
 
-    .imagenPrincipal {
+    .textoNav {
         display: flex;
         position: relative;
-        width: 300px;
-        height: 300px;
-        left: 40px;
-    }
-
-
-
-    .tituloPrincipal {
-        position: relative;
-        width: 380px;
-        height: 80px;
-        display: flex;
-
-        h1 {
-            display: flex;
-            position: relative;
-            font-family: $fontacme;
-            font-size: 30px;
-            width: 200px;
-            height: 100px;
-            top: 15px;
-            color: $textoblanco;
-            left: 120px;
-        }
+        font-family: $fontarial;
+        font-size: 20px;
+        padding: 8px;
 
     }
 
-
-    .catalogo {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 20px;
-        justify-content: space-around;
-        align-content: space-around;
-        padding: 40px;
-        margin: 30px;
-
-        img {
-            width: 180px;
-            height: 230px;
-            padding: 10px;
-        }
-    }
-
-    .cuadroContacto {
+    .tituloCarrusel {
         display: flex;
         position: relative;
+        top: 30px;
         padding: 10px;
-        margin: 40px;
-        width: 200px;
-        height: 300px;
-        left: 8px;
+        margin: 20px;
+        left: 20px;
+        width: 300px;
+        text-align:center;
 
-        .formularioContacto {
-            background-color: b;
-            display: flex;
-            position: relative;
-            flex-direction: column;
-            color: white;
-            gap: 10px;
-            margin: 5px;
-            top: 1px;
-            width: 270px;
-            height: 270px;
-            left: 1px;
-
-            textarea {
-                width: 270px;
-                height: 90px;
-            }
-        }
-    }
-
-
-
-    footer {
-        background-color: $colorteal;
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-        margin-top: 100px;
-
-        .redesSociales {
-            display: flex;
-            position: relative;
-            color: white;
-            font-size: 15px;
-            top: 10px;
+        h2 {
+            font-size: 20px;
             text-align: center;
-
-        }
-
-        .py {
-            display: flex;
-            position: relative;
-            width: 70px;
-            height: 70px;
-            padding: 15px;
-            top: 5px;
-            left: 1px;
-
-            color: white;
-        }
-    }
-}
-
-@media (min-width:480px) {
-
-    .navColor {
-        background-color: $colorteal;
-    }
-
-    .imagenPrincipal {
-        display: flex;
-        position: relative;
-        width: 400px;
-        height: 400px;
-        left: 15px;
-        margin: 30px;
-    }
-
-
-
-    .tituloPrincipal {
-        position: relative;
-        width: 400px;
-        height: 80px;
-        display: flex;
-
-        h1 {
-            display: flex;
-            position: relative;
-            font-family: $fontacme;
-            font-size: 30px;
-            width: 200px;
-            height: 100px;
-            top: 15px;
+            font-family: $fontarial;
             color: $textoblanco;
-            left: 170px;
         }
-
     }
 
-
-    .catalogo {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 20px;
-        justify-content: space-around;
-        align-content: space-around;
-        padding: 40px;
-        margin: 30px;
+    .imgPrincipal {
+        display: flex;
+        position: relative;
+        padding: 0;
+        width: 320px;
+        top: 70px;
+        left: 30px;
+        flex-direction: column;
 
         img {
-            width: 140px;
-            height: 190px;
-            padding: 10px;
+            border: solid $textoblanco;
+            border-radius: 40px;
+            width: 320px;
+            height: 300px;
         }
     }
 
-    .cuadroContacto {
+    .informacion {
         display: flex;
         position: relative;
-        padding: 10px;
-        margin: 40px;
+        padding: 30px;
+        margin: 5px;
+        text-align: center;
+        left: 0;
+        font-size: 15px;
+        color: $textoblanco;
+        top: 30px;
+
+        .infoH3 {
+            display: flex;
+            padding: 50px;
+            width: 300px;
+            font-size: 20px;
+            font-family: &fontarial;
+            left: 400px;
+
+            align-items: center;
+        }
+
+    }
+
+    .tituloPrincipal {
+
+        border-right: 0 50px 50px 0;
+        display: flex;
+        position: relative;
         width: 300px;
-        height: 400px;
+        height: 50px;
+        bottom: 120px;
+        right: 0;
         left: 50px;
 
-        .formularioContacto {
-            background-color: transparent;
-            display: flex;
-            position: relative;
-            flex-direction: column;
-            gap: 10px;
-            margin: 10;
-            top: 45px;
-            width: 200px;
-            height: 200px;
-            left: 43px;
-
-            textarea {
-                width: 200px;
-                height: 50px;
-            }
-        }
-    }
-
-
-
-    footer {
-        background-color: $colorteal;
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-        margin-top: 100px;
-
-        .py {
-            display: flex;
-            position: relative;
-            width: 70px;
-            height: 70px;
-            padding: 15px;
-            top: 5px;
-            left: 100px;
-
-        }
-    }
-}
-
-
-
-
-@media (min-width:580px) {
-
-    .navColor {
-        background-color: $colorteal;
-    }
-
-    .imagenPrincipal {
-        display: flex;
-        position: relative;
-        width: 410px;
-        height: 410px;
-        left: 40px;
-        margin: 50px;
-    }
-
-    .tituloPrincipal {
-        display: flex;
-        position: relative;
-        width: 400px;
-        height: 80px;
-        left: 30px;
-        bottom: 1px;
 
         h1 {
             display: flex;
             position: relative;
-            font-family: $fontacme;
-            font-size: 40px;
+            font-family: Arial,
+                Helvetica,
+                sans-serif;
+            font-size: 30px;
             width: 190px;
             height: 50px;
-            color: $textoblanco;
-
-        }
-    }
-
-    .catalogo {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 30px;
-        justify-content: space-around;
-        align-content: space-around;
-        padding: 40px;
-        margin: 30px;
-
-        img {
-            width: 200px;
-            height: 300px;
-            padding: 10px;
-        }
-    }
-
-    .cuadroContacto {
-        display: flex;
-        position: relative;
-        padding: 10px;
-        margin: 40px;
-        width: 300px;
-        height: 400px;
-        left: 90px;
-
-        .formularioContacto {
-            background-color: transparent;
-            display: flex;
-            position: relative;
-            flex-direction: column;
-            gap: 10px;
-            margin: 10;
-            top: 30px;
-            width: 200px;
-            height: 200px;
-            left: 40px;
-
-            textarea {
-                width: 200px;
-                height: 50px;
-            }
-        }
-    }
-
-
-    footer {
-        background-color: $colorteal;
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
-        margin-top: 110px;
-
-        .py {
-            display: flex;
-            position: relative;
-            width: 70px;
-            height: 70px;
-            padding: 15px;
-            top: 5px;
-            left: 140px;
-
-        }
-    }
-}
-
-
-
-@media (min-width: 800px) {
-
-    .navColor {
-        background-color: $colorteal;
-    }
-
-    .imagenPrincipal {
-        display: flex;
-        position: relative;
-        width: 700px;
-        height: 500px;
-        padding: 50px;
-        top: 20px;
-        left: 1px;
-        margin: 60px;
-    }
-
-    .tituloPrincipal {
-        display: flex;
-        position: relative;
-        width: 400px;
-        height: 70px;
-        left: 135px;
-        bottom: 5px;
-
-        h1 {
-            display: flex;
-            position: relative;
-            font-family: $fontacme;
-            font-size: 40px;
-            width: 190px;
-            height: 50px;
-            color: $textoblanco;
-
-        }
-    }
-
-    .catalogo {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 30px;
-        justify-content: space-around;
-        align-content: space-around;
-        padding: 50px;
-        margin: 40px;
-        left: 10px;
-
-        img {
-            width: 170px;
-            height: 240px;
-            padding: 10px;
-        }
-    }
-
-    .cuadroContacto {
-        display: flex;
-        position: relative;
-        padding: 10px;
-        margin: 60px;
-        width: 570px;
-        height: 350px;
-        left: 55px;
-
-        .formularioContacto {
-            background-color: transparent;
-            display: flex;
-            position: relative;
-            flex-direction: column;
-            gap: 10px;
-            margin: 10px;
-            top: 1px;
-            width: 450px;
-            height: 200px;
-            left: 40px;
-
-            textarea {
-                width: 450px;
-                height: 50px;
-            }
-        }
-    }
-
-
-
-    footer {
-        background-color: $colorteal;
-        display: flex;
-        flex-direction: row;
-        padding: 40px;
-
-        .py {
-            display: flex;
-            position: relative;
-            width: 90px;
-            height: 90px;
-            padding: 20px;
-            top: 10px;
-            left: 210px;
-
-        }
-    }
-
-}
-
-
-
-
-@media (min-width: 1024px) {
-
-    .navColor {
-        background-color: $colorteal;
-    }
-
-    .imagenPrincipal {
-        display: flex;
-        position: relative;
-        width: 800px;
-        height: 600px;
-        padding: 40px;
-        top: 3px;
-        left: 122px;
-        margin: 15px;
-    }
-
-    .tituloPrincipal {
-        display: flex;
-        position: relative;
-        width: 400px;
-        height: 70px;
-        left: 235px;
-        bottom: 5px;
-
-        h1 {
-            display: flex;
-            position: relative;
-            font-family: $fontacme;
-            font-size: 40px;
-            width: 190px;
-            height: 50px;
+            top: 127px;
+            left: 0;
             color: $textoblanco;
         }
-
     }
 
-    .catalogo {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 30px;
-        justify-content: space-around;
-        align-content: space-around;
+    .tituloGenero {
+        display: flex;
+        position: relative;
         padding: 20px;
-        margin: 30px;
+        color: $textoblanco;
+        bottom: 0;
+        left: 0;
+        top: 50px;
+
+        text-shadow: 0 0 30px $colorresalteado;
 
 
-        img {
-            width: 300px;
-            height: 400px;
-            padding: 15px;
+        h2 {
+            display: flex;
+            position: relative;
+            left: 20px;
+            top: 5px;
+            font-size: 40px;
         }
     }
 
+    .catalogo {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: space-around;
+        align-content: space-around;
+        padding: 70px;
+        left: 40px;
+width: 300px;
+top: 30px;
+        .imgLibros {
+            background-color: $colorcoral;
+            border: solid $textoblanco;
+            width: 260px;
+            height: 440px;
+            padding: 10px;
+            border-radius: 20px;
+            margin: 20px;
 
+            img {
+                border-radius: 20px;
+                display: flex;
+                position: relative;
+                width: 230px;
+                height: 300px;
+                left: 0;
+                top: 0;
+            }
+
+            .texto1 {
+                display: flex;
+                position: relative;
+                color: white;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                padding: 0;
+                margin: 0;
+                font-size: 17px;
+                left: 8px;
+                top: 10px;
+
+            }
+
+            .texto2 {
+                display: flex;
+                position: relative;
+                color: white;
+                padding: 0;
+                margin: 0;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                font-size: 15px;
+                bottom: 20px;
+                top: 10px;
+                left: 8px;
+            }
+
+        }
+    }
 
     .cuadroContacto {
+        border: solid $textoblanco;
+        border-radius: 70px;
         display: flex;
         position: relative;
         padding: 5px;
-        margin: 40px;
-        width: 700px;
-        height: 400px;
-        left: 130px;
+        margin: 30px;
+        width: 320px;
+        height: 500px;
+        left: 0;
+        transition: 1s;
+        top: 0;
 
         .formularioContacto {
-            background-color: transparent;
             display: flex;
             position: relative;
             flex-direction: column;
-            margin: 5px;
-            top: 5px;
-            width: 550px;
-            height: 500px;
-            left: 60px;
+            margin: 50px;
+            top: 70px;
+            width: 200px;
+            height: 30px;
+            left: 0;
+            color: white;
+
 
             textarea {
-                width: 550px;
-                height: 100px;
+                width: 200px;
+                height: 50px;
             }
         }
+
     }
 
 
-
-
-    footer {
+    .piePagina {
+        border-radius: 20px 20px 0 0;
         background-color: $colorteal;
         display: flex;
-        flex-direction: row;
-        padding: 23px;
+        position: relative;
+        padding: 50px;
 
         .py {
             display: flex;
             position: relative;
-            width: 100px;
-            height: 100px;
+            width: 40px;
+            height: 40px;
             padding: 30px;
-            top: 12px;
-            left: 315px;
+            left: 10px;
+            bottom: 30px;
+
+            img {
+                border: solid $textoblanco;
+                border-radius: 20px;
+                margin: 10px;
+            }
         }
     }
 }
-
 
 
 @media (min-width: 1200px) {
 
     .navColor {
         background-color: $colorteal;
+        height: 180px;
+        border-radius: 0 0 50px 50px;
     }
 
-    .imagenPrincipal {
+    .textoNav {
         display: flex;
         position: relative;
-        width: 900px;
-        height: 600px;
-        padding: 100px;
-        top: 3px;
-        left: 205px;
-        margin: 15px;
+        font-family: $fontarial;
+        font-size: 17px;
+        padding: 8px;
+
+        &:hover {
+            transform: scale(1.1);
+            background-color: $colorcoral;
+            box-shadow: 0 0 30px $colorcoral;
+            border-radius: 15px;
+
+        }
+    }
+
+    .tituloCarrusel {
+        display: flex;
+        position: relative;
+        top: 50px;
+        padding: 10px;
+        margin: 20px;
+        left: 390px;
+        width: 600px;
+
+        h2 {
+            font-size: 20px;
+            text-align: center;
+            font-family: $fontarial;
+            color: $textoblanco;
+        }
+    }
+
+    .imgPrincipal {
+        display: flex;
+        position: relative;
+        width: 500px;
+        height: 450px;
+        padding: 0;
+        top: 90px;
+        left: 360px;
+        flex-direction: column;
+        img {
+            border: solid $textoblanco;
+            border-radius: 40px;
+        width: 600px;
+        height: 400px;
+        }
+    }
+
+    .informacion {
+        display: flex;
+        position: relative;
+        padding: 30px;
+        margin: 20px;
+        top: 50px;
+        text-align: center;
+        left: 0;
+        font-size: 15px;
+        color: $textoblanco;
+
+        .infoH3 {
+            display: flex;
+            padding: 50px;
+            width: 400px;
+            font-size: 20px;
+            font-family: &fontarial;
+            left: 400px;
+
+            align-items: center;
+        }
+
     }
 
     .tituloPrincipal {
+        border-right: 0 50px 50px 0;
         display: flex;
         position: relative;
-        width: 400px;
-        height: 70px;
-        bottom: 5px;
-        left: 380px;
+        width: 500px;
+        height: 50px;
+        bottom: 120px;
+        right: 0;
+        left: 50px;
+
 
         h1 {
             display: flex;
             position: relative;
-            font-family: $fontacme;
-            font-size: 40px;
+            font-family: Arial,
+                Helvetica,
+                sans-serif;
+            font-size: 30px;
             width: 190px;
             height: 50px;
+            top: 127px;
+            left: 0;
             color: $textoblanco;
+        }
+    }
+
+    .tituloGenero {
+        display: flex;
+        position: relative;
+        padding: 20px;
+        color: $textoblanco;
+        bottom: 0;
+        left: 0;
+        top: 50px;
+
+        text-shadow: 0 0 30px $colorresalteado;
+
+
+        h2 {
+            display: flex;
+            position: relative;
+            left: 330px;
+            top: 20px;
+            font-size: 40px;
         }
     }
 
@@ -585,74 +381,125 @@
         position: relative;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 60px;
         justify-content: space-around;
         align-content: space-around;
-        padding: 50px;
+        padding: 120px;
         left: 15px;
 
-
-        img {
-            width: 300px;
+        .imgLibros {
+            background-color: $colorcoral;
+            border: solid $textoblanco;
+            width: 240px;
             height: 400px;
-            padding: 1px;
+            padding: 10;
+            border-radius: 20px;
+            margin: 20px;
+
+            &:hover {
+                transform: translateY(-3%);
+                box-shadow: 0 0 35px $colorresalteado;
+            }
+
+            img {
+                border-radius: 20px;
+                display: flex;
+                position: relative;
+                width: 220px;
+                height: 300px;
+                left: 5px;
+                top: 0;
+            }
+
+            .texto1 {
+                display: flex;
+                position: relative;
+                color: white;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                padding: 0;
+                margin: 0;
+                font-size: 14px;
+                left: 8px;
+
+            }
+
+            .texto2 {
+                display: flex;
+                position: relative;
+                color: white;
+                padding: 0;
+                margin: 0;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                font-size: 12px;
+                bottom: 20px;
+                top: 0;
+                left: 8px;
+            }
+
         }
     }
 
     .cuadroContacto {
+        border: solid $textoblanco;
+        border-radius: 70px;
         display: flex;
         position: relative;
         padding: 5px;
-        margin: 40px;
-        width: 1000px;
-        height: 500px;
-        left: 130px;
+        margin: 30px;
+        width: 700px;
+        height: 430px;
+        left: 142px;
+        transition: 1s;
+        top: 0;
 
         .formularioContacto {
-            background-color: transparent;
             display: flex;
             position: relative;
             flex-direction: column;
             margin: 50px;
-            top: 15px;
-            width: 700px;
+            top: 0;
+            width: 530px;
             height: 50px;
-            left: 95px;
+            left: 30px;
             color: white;
+
 
             textarea {
-                width: 700px;
-                height: 100px;
+                width: 530px;
+                height: 50px;
             }
         }
+
     }
 
-    footer {
+
+    .piePagina {
         background-color: $colorteal;
         display: flex;
-        flex-direction: row;
-        padding: 50px;
-        margin-top: 30px;
-
-        .redesSociales {
-            display: flex;
-            position: relative;
-            color: white;
-            font-size: 30px;
-            top: 15px;
-            text-align: center;
-left: 430px;
-        }
+        position: relative;
+        padding: 30px;
 
         .py {
             display: flex;
             position: relative;
-            width: 120px;
-            height: 120px;
-            padding: 30px;
+            width: 100px;
+            height: 100px;
+            padding: 20px;
             top: 35px;
-            left: 50px;
+            left: 430px;
+            transition: 1s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            img {
+                border: solid $textoblanco;
+                border-radius: 20px;
+            }
         }
     }
-
 }
