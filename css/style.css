@@ -713,20 +713,20 @@ body {
     display: flex;
     position: relative;
     padding: 30px;
-    margin: 20px;
+    margin: 20px 0 20px;
     top: 50px;
     text-align: center;
-    left: 0;
+    left: 140px;
     font-size: 15px;
     color: white;
     right: 30px; }
     .informacion .infoH3 {
       display: flex;
-      padding: 50px 500px;
-      width: 1290px;
+      padding: 50px 250px;
+      width: 900px;
       font-size: 20px;
       font-family: .informacion .infoH3 fontarial;
-      left: 500px; }
+      left: 100px; }
   .tituloPrincipal {
     border-right: 0 50px 50px 0;
     display: flex;

@@ -881,21 +881,21 @@
         display: flex;
         position: relative;
         padding: 30px;
-        margin: 20px;
+        margin: 20px 0 20px;
         top: 50px;
         text-align: center;
-        left: 0;
+        left: 140px;
         font-size: 15px;
         color: $textoblanco;
         right: 30px;
 
         .infoH3 {
             display: flex;
-            padding: 50px 500px;
-            width: 1290px;
+            padding: 50px 250px;
+            width: 900px;
             font-size: 20px;
             font-family: &fontarial;
-            left: 500px;
+            left: 100px;
         }
 
     }
