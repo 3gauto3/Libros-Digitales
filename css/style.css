@@ -1,19 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,900&display=swap");
-@media (min-width: 380px) {
+@media (min-width: 320px) {
   .boton {
     background-color: black;
-    border-radius: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    font-size: 17px;
+    padding: 3px 0 3px 25px;
+    text-decoration: none;
+    text-align: center;
+    width: 170px;
+    height: 35px;
+    left: 15px;
+    top: 15px; } }
+
+@media (min-width: 410px) {
+  .boton {
+    background-color: black;
+    border-radius: 10px;
     color: white;
     display: flex;
     position: relative;
     font-size: 15px;
-    padding: 2px 20px;
+    padding: 2px 22px;
     text-decoration: none;
     text-align: center;
     width: 150px;
     height: 30px;
     left: 0;
     top: 20px; } }
+
+@media (min-width: 768px) {
+  .boton {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    padding: 3px 23px;
+    text-decoration: none;
+    text-align: center;
+    width: 155px;
+    height: 35px;
+    left: 17px;
+    top: 12px; } }
 
 @media (min-width: 1200px) {
   .boton {
@@ -31,7 +63,9 @@
     height: 40px;
     bottom: 0;
     top: 20px;
-    left: 10px; } }
+    left: 10px; }
+    .boton:hover {
+      color: red; } }
 
 * {
   padding: 0;
@@ -41,7 +75,216 @@ body {
   background-color: #580104;
   size: 100vh; }
 
+@media (min-width: 320px) {
+  .iconoBoton {
+    box-shadow: 0 0 5px white;
+    border-radius: 10px; }
+    .iconoBoton:hover {
+      box-shadow: 0 0 5px white; }
+  .buscador1 {
+    border-radius: 10px;
+    border-color: #7e0814; }
+    .buscador1:hover {
+      box-shadow: 0 0 10px #e00b21;
+      border-color: white; }
+  .botonBuscar {
+    border-radius: 10px; }
+  .navColor {
+    background-color: #7e0814;
+    border-radius: 0 0 20px 20px; }
+  .textoNav {
+    display: flex;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px; }
+  .tituloCarrusel {
+    display: flex;
+    position: relative;
+    top: 30px;
+    padding: 10px 0 0 0;
+    left: 10px;
+    width: 300px;
+    align-items: center; }
+    .tituloCarrusel h2 {
+      font-size: 25px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white; }
+  .imgPrincipal {
+    display: flex;
+    position: relative;
+    padding: 0;
+    width: 290px;
+    top: 70px;
+    left: 23px;
+    flex-direction: column; }
+    .imgPrincipal img {
+      border: solid white;
+      border-radius: 40px;
+      width: 280px;
+      height: 230px; }
+  .informacion {
+    display: flex;
+    position: relative;
+    padding: 30px 0 0 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    left: 0;
+    font-size: 14px;
+    color: white;
+    top: 30px; }
+    .informacion .infoH3 {
+      display: flex;
+      padding: 30px 0 0 0;
+      width: 300px;
+      margin: 10px 0 35px 0;
+      font-size: 25px;
+      font-family: .informacion .infoH3 fontarial;
+      right: 5px;
+      top: 20px;
+      align-items: center; }
+  .tituloPrincipal {
+    border-right: 0 50px 50px 0;
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    bottom: 120px;
+    right: 0;
+    left: 50px; }
+    .tituloPrincipal h1 {
+      display: flex;
+      position: relative;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      width: 190px;
+      height: 50px;
+      top: 127px;
+      left: 0;
+      color: white; }
+  .tituloGenero {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    top: 80px;
+    text-shadow: 0 0 30px #e00b21; }
+    .tituloGenero h2 {
+      display: flex;
+      position: relative;
+      left: 30px;
+      top: 5px;
+      font-size: 30px; }
+  .catalogo {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 160px;
+    left: 0;
+    width: 290px;
+    top: 0; }
+    .catalogo .imgLibros {
+      background-color: #580104;
+      border: solid white;
+      width: 230px;
+      height: 385px;
+      padding: 10px;
+      border-radius: 20px;
+      margin: 20px; }
+      .catalogo .imgLibros img {
+        border-radius: 20px;
+        display: flex;
+        position: relative;
+        width: 205px;
+        height: 275px;
+        left: 0;
+        top: 0; }
+      .catalogo .imgLibros .texto1 {
+        display: flex;
+        position: relative;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        left: 8px;
+        top: 10px; }
+      .catalogo .imgLibros .texto2 {
+        display: flex;
+        position: relative;
+        color: white;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        bottom: 20px;
+        top: 10px;
+        left: 8px; }
+  .cuadroContacto {
+    border: solid white;
+    border-radius: 70px;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    margin: 30px;
+    width: 301px;
+    height: 500px;
+    right: 20px;
+    transition: 1s;
+    top: 0; }
+    .cuadroContacto .formularioContacto {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      margin: 50px;
+      top: 5px;
+      width: 180px;
+      height: 30px;
+      left: 0;
+      gap: 15px;
+      color: white; }
+      .cuadroContacto .formularioContacto textarea {
+        width: 180px;
+        height: 80px; }
+  .piePagina {
+    border-radius: 20px 20px 0 0;
+    background-color: #7e0814;
+    display: flex;
+    position: relative;
+    padding: 50px; }
+    .piePagina .py {
+      display: flex;
+      position: relative;
+      width: 40px;
+      height: 40px;
+      padding: 30px;
+      right: 20px;
+      bottom: 30px; }
+      .piePagina .py img {
+        border: solid white;
+        border-radius: 20px;
+        margin: 10px; } }
+
 @media (min-width: 410px) {
+  .iconoBoton {
+    box-shadow: 0 0 5px white;
+    border-radius: 10px; }
+    .iconoBoton:hover {
+      box-shadow: 0 0 5px white; }
+  .buscador1 {
+    border-radius: 10px;
+    border-color: #7e0814; }
+    .buscador1:hover {
+      box-shadow: 0 0 10px #e00b21;
+      border-color: white; }
+  .botonBuscar {
+    border-radius: 10px; }
   .navColor {
     background-color: #7e0814;
     border-radius: 0 0 20px 20px; }
@@ -145,8 +388,8 @@ body {
     .catalogo .imgLibros {
       background-color: #580104;
       border: solid white;
-      width: 180px;
-      height: 340px;
+      width: 181px;
+      height: 325px;
       padding: 10px;
       border-radius: 20px;
       margin: 20px; }
@@ -218,6 +461,205 @@ body {
       height: 40px;
       padding: 30px;
       left: 25px;
+      bottom: 30px; }
+      .piePagina .py img {
+        border: solid white;
+        border-radius: 20px;
+        margin: 10px; } }
+
+@media (min-width: 768px) {
+  .iconoBoton {
+    box-shadow: 0 0 5px white;
+    border-radius: 10px; }
+    .iconoBoton:hover {
+      box-shadow: 0 0 5px white; }
+  .buscador1 {
+    border-radius: 10px;
+    border-color: #7e0814; }
+    .buscador1:hover {
+      box-shadow: 0 0 10px #e00b21;
+      border-color: white; }
+  .botonBuscar {
+    border-radius: 10px; }
+  .navColor {
+    background-color: #7e0814;
+    border-radius: 0 0 20px 20px; }
+  .textoNav {
+    display: flex;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px; }
+  .tituloCarrusel {
+    display: flex;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    margin: 20px;
+    left: 110px;
+    width: 500px;
+    text-align: center; }
+    .tituloCarrusel h2 {
+      font-size: 20px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white; }
+  .imgPrincipal {
+    display: flex;
+    position: relative;
+    padding: 0;
+    width: 320px;
+    top: 70px;
+    left: 170px;
+    flex-direction: column; }
+    .imgPrincipal img {
+      border: solid white;
+      border-radius: 40px;
+      width: 430px;
+      height: 330px; }
+  .informacion {
+    display: flex;
+    position: relative;
+    padding: 30px;
+    margin: 40px 0 40px 0;
+    text-align: center;
+    left: 5px;
+    font-size: 15px;
+    color: white;
+    top: 30px;
+    width: 750px; }
+    .informacion .infoH3 {
+      display: flex;
+      padding: 30px 90px;
+      width: 500px;
+      font-size: 20px;
+      font-family: .informacion .infoH3 fontarial;
+      left: 500px;
+      top: 50px;
+      margin-left: 100px;
+      align-items: center; }
+  .tituloPrincipal {
+    border-right: 0 50px 50px 0;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    bottom: 120px;
+    right: 0;
+    left: 50px; }
+    .tituloPrincipal h1 {
+      display: flex;
+      position: relative;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      width: 190px;
+      height: 50px;
+      top: 127px;
+      left: 0;
+      color: white; }
+  .tituloGenero {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    left: 160px;
+    top: 80px;
+    width: 400px;
+    text-shadow: 0 0 30px #e00b21; }
+    .tituloGenero h2 {
+      display: flex;
+      position: relative;
+      left: 40px;
+      top: 5px;
+      font-size: 40px; }
+  .catalogo {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 160px;
+    left: 225px;
+    width: 300px;
+    top: 0; }
+    .catalogo .imgLibros {
+      background-color: #580104;
+      border: solid white;
+      width: 220px;
+      height: 370px;
+      padding: 10px;
+      border-radius: 15px;
+      margin: 20px; }
+      .catalogo .imgLibros img {
+        border-radius: 10px;
+        display: flex;
+        position: relative;
+        width: 195px;
+        height: 260px;
+        left: 0;
+        top: 0; }
+      .catalogo .imgLibros .texto1 {
+        display: flex;
+        position: relative;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        left: 8px;
+        top: 10px; }
+      .catalogo .imgLibros .texto2 {
+        display: flex;
+        position: relative;
+        color: white;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        bottom: 20px;
+        top: 10px;
+        left: 8px; }
+  .cuadroContacto {
+    border: solid white;
+    border-radius: 70px;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    margin: 30px;
+    width: 710px;
+    height: 500px;
+    left: 0;
+    transition: 1s;
+    top: 0; }
+    .cuadroContacto .formularioContacto {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      margin: 50px;
+      top: 0;
+      width: 500px;
+      height: 30px;
+      left: 50px;
+      gap: 15px;
+      color: white; }
+      .cuadroContacto .formularioContacto textarea {
+        width: 500px;
+        height: 100px; }
+  .piePagina {
+    border-radius: 20px 20px 0 0;
+    background-color: #7e0814;
+    display: flex;
+    position: relative;
+    padding: 50px; }
+    .piePagina .py {
+      display: flex;
+      position: relative;
+      width: 50px;
+      height: 50px;
+      padding: 40px;
+      left: 180px;
       bottom: 30px; }
       .piePagina .py img {
         border: solid white;
@@ -370,14 +812,14 @@ body {
         left: 8px; }
   .cuadroContacto {
     border: solid white;
-    border-radius: 70px;
+    border-radius: 50px;
     display: flex;
     position: relative;
     padding: 5px;
     margin: 30px;
-    width: 900px;
-    height: 430px;
-    left: 200px;
+    width: 700px;
+    height: 500px;
+    left: 280px;
     transition: 1s;
     top: 0; }
     .cuadroContacto .formularioContacto {
@@ -385,15 +827,15 @@ body {
       position: relative;
       flex-direction: column;
       margin: 50px;
-      top: 0;
-      width: 700px;
+      top: 10px;
+      width: 500px;
       height: 50px;
       left: 40px;
       color: white;
       gap: 10px; }
       .cuadroContacto .formularioContacto textarea {
-        width: 700px;
-        height: 50px; }
+        width: 500px;
+        height: 100px; }
   .piePagina {
     background-color: #7e0814;
     display: flex;
@@ -406,10 +848,7 @@ body {
       height: 100px;
       padding: 20px;
       left: 450px;
-      bottom: 0;
-      transition: 1s; }
-      .piePagina .py:hover {
-        transform: scale(1.1); }
+      bottom: 0; }
       .piePagina .py img {
         border: solid white;
         border-radius: 20px; } }

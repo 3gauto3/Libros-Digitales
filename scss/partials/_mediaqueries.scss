@@ -1,8 +1,303 @@
 @import '../base/variables';
 
 
-@media (min-width: 410px) {
 
+@media (min-width: 320px) {
+
+    .iconoBoton {
+        box-shadow: 0 0 5px $textoblanco;
+        border-radius: 10px;
+
+        &:hover {
+            box-shadow: 0 0 5px $textoblanco;
+        }
+    }
+
+    .buscador1 {
+        border-radius: 10px;
+        border-color: $colorteal;
+
+        &:hover {
+            box-shadow: 0 0 10px $colorresalteado;
+            border-color: white;
+        }
+    }
+
+    .botonBuscar {
+        border-radius: 10px;
+    }
+
+    .navColor {
+        background-color: $colorteal;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .textoNav {
+        display: flex;
+        position: relative;
+        font-family: $fontarial;
+        font-size: 20px;
+        padding: 8px;
+
+    }
+
+    .tituloCarrusel {
+        display: flex;
+        position: relative;
+        top: 30px;
+        padding: 10px 0 0 0;
+        left: 10px;
+        width: 300px;
+        align-items: center;
+
+        h2 {
+            font-size: 25px;
+            text-align: center;
+            font-family: $fontarial;
+            color: $textoblanco;
+        }
+    }
+
+    .imgPrincipal {
+        display: flex;
+        position: relative;
+        padding: 0;
+        width: 290px;
+        top: 70px;
+        left: 23px;
+        flex-direction: column;
+
+        img {
+            border: solid $textoblanco;
+            border-radius: 40px;
+            width: 280px;
+            height: 230px;
+        }
+    }
+
+    .informacion {
+        display: flex;
+        position: relative;
+        padding: 30px 0 0 5px;
+        margin-bottom: 50px;
+        text-align: center;
+        left: 0;
+        font-size: 14px;
+        color: $textoblanco;
+        top: 30px;
+
+        .infoH3 {
+            display: flex;
+            padding: 30px 0 0 0;
+            width: 300px;
+            margin: 10px 0 35px 0;
+            font-size: 25px;
+            font-family: &fontarial;
+            right: 5px;
+            top: 20px;
+            align-items: center;
+        }
+
+    }
+
+    .tituloPrincipal {
+
+        border-right: 0 50px 50px 0;
+        display: flex;
+        position: relative;
+        width: 180px;
+        height: 50px;
+        bottom: 120px;
+        right: 0;
+        left: 50px;
+
+
+        h1 {
+            display: flex;
+            position: relative;
+            font-family: Arial,
+                Helvetica,
+                sans-serif;
+            font-size: 30px;
+            width: 190px;
+            height: 50px;
+            top: 127px;
+            left: 0;
+            color: $textoblanco;
+        }
+    }
+
+    .tituloGenero {
+        display: flex;
+        position: relative;
+        padding: 20px;
+        color: $textoblanco;
+        bottom: 0;
+        left: 0;
+        top: 80px;
+
+        text-shadow: 0 0 30px $colorresalteado;
+
+
+        h2 {
+            display: flex;
+            position: relative;
+            left: 30px;
+            top: 5px;
+            font-size: 30px;
+        }
+    }
+
+    .catalogo {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: space-around;
+        align-content: space-around;
+        padding: 160px;
+        left: 0;
+        width: 290px;
+        top: 0;
+
+        .imgLibros {
+            background-color: $colorcoral;
+            border: solid $textoblanco;
+            width: 230px;
+            height: 385px;
+            padding: 10px;
+            border-radius: 20px;
+            margin: 20px;
+
+            img {
+                border-radius: 20px;
+                display: flex;
+                position: relative;
+                width: 205px;
+                height: 275px;
+                left: 0;
+                top: 0;
+            }
+
+            .texto1 {
+                display: flex;
+                position: relative;
+                color: white;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                padding: 0;
+                margin: 0;
+                font-size: 14px;
+                left: 8px;
+                top: 10px;
+
+            }
+
+            .texto2 {
+                display: flex;
+                position: relative;
+                color: white;
+                padding: 0;
+                margin: 0;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                font-size: 12px;
+                bottom: 20px;
+                top: 10px;
+                left: 8px;
+            }
+
+        }
+    }
+
+    .cuadroContacto {
+        border: solid $textoblanco;
+        border-radius: 70px;
+        display: flex;
+        position: relative;
+        padding: 5px;
+        margin: 30px;
+        width: 301px;
+        height: 500px;
+        right: 20px;
+        transition: 1s;
+        top: 0;
+
+        .formularioContacto {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            margin: 50px;
+            top: 5px;
+            width: 180px;
+            height: 30px;
+            left: 0;
+            gap: 15px;
+            color: white;
+
+
+            textarea {
+                width: 180px;
+                height: 80px;
+            }
+        }
+
+    }
+
+    .piePagina {
+        border-radius: 20px 20px 0 0;
+        background-color: $colorteal;
+        display: flex;
+        position: relative;
+        padding: 50px;
+
+        .py {
+            display: flex;
+            position: relative;
+            width: 40px;
+            height: 40px;
+            padding: 30px;
+            right: 20px;
+            bottom: 30px;
+
+            img {
+                border: solid $textoblanco;
+                border-radius: 20px;
+                margin: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (min-width: 410px) {
+    .iconoBoton {
+        box-shadow: 0 0 5px $textoblanco;
+        border-radius: 10px;
+
+        &:hover {
+            box-shadow: 0 0 5px $textoblanco;
+        }
+    }
+
+    .buscador1 {
+        border-radius: 10px;
+        border-color: $colorteal;
+
+        &:hover {
+            box-shadow: 0 0 10px $colorresalteado;
+            border-color: white;
+        }
+    }
+
+    .botonBuscar {
+        border-radius: 10px;
+    }
     .navColor {
         background-color: $colorteal;
         border-radius: 0 0 20px 20px;
@@ -25,7 +320,7 @@
         margin: 20px;
         left: 40px;
         width: 300px;
-        text-align:center;
+        text-align: center;
 
         h2 {
             font-size: 20px;
@@ -70,7 +365,7 @@
             font-size: 20px;
             font-family: &fontarial;
             left: 500px;
-top: 20px;
+            top: 20px;
             align-items: center;
         }
 
@@ -133,13 +428,14 @@ top: 20px;
         align-content: space-around;
         padding: 160px;
         left: 45px;
-width: 300px;
-top: 0;
+        width: 300px;
+        top: 0;
+
         .imgLibros {
             background-color: $colorcoral;
             border: solid $textoblanco;
-            width: 180px;
-            height: 340px;
+            width: 181px;
+            height: 325px;
             padding: 10px;
             border-radius: 20px;
             margin: 20px;
@@ -248,6 +544,280 @@ top: 0;
 }
 
 
+
+
+@media (min-width: 768px) {
+    .iconoBoton {
+        box-shadow: 0 0 5px $textoblanco;
+        border-radius: 10px;
+
+        &:hover {
+            box-shadow: 0 0 5px $textoblanco;
+        }
+    }
+
+    .buscador1 {
+        border-radius: 10px;
+        border-color: $colorteal;
+
+        &:hover {
+            box-shadow: 0 0 10px $colorresalteado;
+            border-color: white;
+        }
+    }
+
+    .botonBuscar {
+        border-radius: 10px;
+    }
+
+    .navColor {
+        background-color: $colorteal;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .textoNav {
+        display: flex;
+        position: relative;
+        font-family: $fontarial;
+        font-size: 20px;
+        padding: 8px;
+
+    }
+
+    .tituloCarrusel {
+        display: flex;
+        position: relative;
+        top: 50px;
+        padding: 10px;
+        margin: 20px;
+        left: 110px;
+        width: 500px;
+        text-align: center;
+
+        h2 {
+            font-size: 20px;
+            text-align: center;
+            font-family: $fontarial;
+            color: $textoblanco;
+        }
+    }
+
+    .imgPrincipal {
+        display: flex;
+        position: relative;
+        padding: 0;
+        width: 320px;
+        top: 70px;
+        left: 170px;
+        flex-direction: column;
+
+        img {
+            border: solid $textoblanco;
+            border-radius: 40px;
+            width: 430px;
+            height: 330px;
+        }
+    }
+
+    .informacion {
+        display: flex;
+        position: relative;
+        padding: 30px;
+        margin: 40px 0 40px 0;
+        text-align: center;
+        left: 5px;
+        font-size: 15px;
+        color: $textoblanco;
+        top: 30px;
+        width: 750px;
+
+        .infoH3 {
+            display: flex;
+            padding: 30px 90px;
+            width: 500px;
+            font-size: 20px;
+            font-family: &fontarial;
+            left: 500px;
+            top: 50px;
+            margin-left: 100px;
+            align-items: center;
+        }
+
+    }
+
+    .tituloPrincipal {
+
+        border-right: 0 50px 50px 0;
+        display: flex;
+        position: relative;
+        width: 300px;
+        height: 50px;
+        bottom: 120px;
+        right: 0;
+        left: 50px;
+
+
+        h1 {
+            display: flex;
+            position: relative;
+            font-family: Arial,
+                Helvetica,
+                sans-serif;
+            font-size: 30px;
+            width: 190px;
+            height: 50px;
+            top: 127px;
+            left: 0;
+            color: $textoblanco;
+        }
+    }
+
+    .tituloGenero {
+        display: flex;
+        position: relative;
+        padding: 20px;
+        color: $textoblanco;
+        bottom: 0;
+        left: 160px;
+        top: 80px;
+        width: 400px;
+
+        text-shadow: 0 0 30px $colorresalteado;
+
+
+        h2 {
+            display: flex;
+            position: relative;
+            left: 40px;
+            top: 5px;
+            font-size: 40px;
+        }
+    }
+
+    .catalogo {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: space-around;
+        align-content: space-around;
+        padding: 160px;
+        left: 225px;
+        width: 300px;
+        top: 0;
+
+        .imgLibros {
+            background-color: $colorcoral;
+            border: solid $textoblanco;
+            width: 220px;
+            height: 370px;
+            padding: 10px;
+            border-radius: 15px;
+            margin: 20px;
+
+            img {
+                border-radius: 10px;
+                display: flex;
+                position: relative;
+                width: 195px;
+                height: 260px;
+                left: 0;
+                top: 0;
+            }
+
+            .texto1 {
+                display: flex;
+                position: relative;
+                color: white;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                padding: 0;
+                margin: 0;
+                font-size: 14px;
+                left: 8px;
+                top: 10px;
+
+            }
+
+            .texto2 {
+                display: flex;
+                position: relative;
+                color: white;
+                padding: 0;
+                margin: 0;
+                font-family: Arial,
+                    Helvetica,
+                    sans-serif;
+                font-size: 12px;
+                bottom: 20px;
+                top: 10px;
+                left: 8px;
+            }
+
+        }
+    }
+
+    .cuadroContacto {
+        border: solid $textoblanco;
+        border-radius: 70px;
+        display: flex;
+        position: relative;
+        padding: 5px;
+        margin: 30px;
+        width: 710px;
+        height: 500px;
+        left: 0;
+        transition: 1s;
+        top: 0;
+
+        .formularioContacto {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            margin: 50px;
+            top: 0;
+            width: 500px;
+            height: 30px;
+            left: 50px;
+            gap: 15px;
+            color: white;
+
+
+            textarea {
+                width: 500px;
+                height: 100px;
+            }
+        }
+
+    }
+
+
+    .piePagina {
+        border-radius: 20px 20px 0 0;
+        background-color: $colorteal;
+        display: flex;
+        position: relative;
+        padding: 50px;
+
+        .py {
+            display: flex;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            padding: 40px;
+            left: 180px;
+            bottom: 30px;
+
+            img {
+                border: solid $textoblanco;
+                border-radius: 20px;
+                margin: 10px;
+            }
+        }
+    }
+}
+
 @media (min-width: 1200px) {
 
     .navColor {
@@ -298,11 +868,12 @@ top: 0;
         top: 90px;
         left: 360px;
         flex-direction: column;
+
         img {
             border: solid $textoblanco;
             border-radius: 40px;
-        width: 600px;
-        height: 400px;
+            width: 600px;
+            height: 400px;
         }
     }
 
@@ -445,14 +1016,14 @@ top: 0;
 
     .cuadroContacto {
         border: solid $textoblanco;
-        border-radius: 70px;
+        border-radius: 50px;
         display: flex;
         position: relative;
         padding: 5px;
         margin: 30px;
-        width: 900px;
-        height: 430px;
-        left: 200px;
+        width: 700px;
+        height: 500px;
+        left: 280px;
         transition: 1s;
         top: 0;
 
@@ -461,17 +1032,16 @@ top: 0;
             position: relative;
             flex-direction: column;
             margin: 50px;
-            top: 0;
-            width: 700px;
+            top: 10px;
+            width: 500px;
             height: 50px;
             left: 40px;
             color: white;
             gap: 10px;
 
-
             textarea {
-                width: 700px;
-                height: 50px;
+                width: 500px;
+                height: 100px;
             }
         }
 
@@ -492,11 +1062,6 @@ top: 0;
             padding: 20px;
             left: 450px;
             bottom: 0;
-            transition: 1s;
-
-            &:hover {
-                transform: scale(1.1);
-            }
 
             img {
                 border: solid $textoblanco;

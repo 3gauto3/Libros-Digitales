@@ -1,14 +1,32 @@
        @import '../base/variables';
        
        .boton {
-            @media (min-width:380px) {
+
+            @media (min-width:320px) {
                 background-color: $colornegro;
-                border-radius: 20px;
+                border-radius: 10px;
+                color: white;
+                display: flex;
+                position: relative;
+                font-size: 17px;
+                padding: 3px 0 3px 25px;
+                text-decoration: none;
+                text-align: center;
+                width: 170px;
+                height: 35px;
+                left: 15px;
+                top: 15px;
+            }
+
+
+            @media (min-width:410px) {
+                background-color: $colornegro;
+                border-radius: 10px;
                 color: white;
                 display: flex;
                 position: relative;
                 font-size: 15px;
-                padding: 2px 20px;
+                padding: 2px 22px;
                 text-decoration: none;
                 text-align: center;
                 width: 150px;
@@ -16,6 +34,22 @@
                 left: 0;
                 top: 20px;
             }
+
+                        @media (min-width:768px) {
+                            background-color: $colornegro;
+                            border-radius: 10px;
+                            color: white;
+                            display: flex;
+                            position: relative;
+                            font-size: 16px;
+                            padding: 3px 23px;
+                            text-decoration: none;
+                            text-align: center;
+                            width: 155px;
+                            height: 35px;
+                            left: 17px;
+                            top: 12px;
+                        }
 
             @media (min-width:1200px) {
                 background-color: $colornegro;
@@ -33,5 +67,8 @@
                 bottom: 0;
                 top: 20px;
                 left: 10px;
+                &:hover {
+                    color: red;
+                }
+                }
             }
-        }
