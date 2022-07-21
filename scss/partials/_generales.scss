@@ -1,4 +1,4 @@
-@import "../base/variables";
+@import '../base/variables';
 
 * {
     padding: 0;
@@ -7,5 +7,7 @@
 
 body {
     background-color: $colorcoral;
-    size: 100vh;
+    font-family: $fontarial;
+    color: $textoblanco;
+    size: 100px;
 }

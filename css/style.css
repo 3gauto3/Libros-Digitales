@@ -1,71 +1,68 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Montserrat:wght@100&family=Roboto:ital,wght@0,700;1,900&display=swap");
-@media (min-width: 320px) {
-  .boton {
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    position: relative;
-    font-size: 17px;
-    padding: 3px 0 3px 25px;
-    text-decoration: none;
-    text-align: center;
-    width: 170px;
-    height: 35px;
-    left: 15px;
-    top: 15px; } }
+.navColor {
+  background-color: #7e0814;
+  padding: 40px;
+  border-radius: 0 0 50px 50px; }
 
-@media (min-width: 410px) {
-  .boton {
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    position: relative;
-    font-size: 15px;
-    padding: 2px 22px;
-    text-decoration: none;
-    text-align: center;
-    width: 150px;
-    height: 30px;
-    left: 0;
-    top: 20px; } }
+.navCentro {
+  align-items: center;
+  justify-content: center;
+  font-size: 20px; }
 
-@media (min-width: 768px) {
-  .boton {
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    position: relative;
-    font-size: 16px;
-    padding: 3px 23px;
-    text-decoration: none;
-    text-align: center;
-    width: 155px;
-    height: 35px;
-    left: 17px;
-    top: 12px; } }
+.textoNav:hover {
+  background-color: #580104;
+  transform: 1.1;
+  box-shadow: 0 0 10px #e00b21;
+  border-radius: 10px; }
 
-@media (min-width: 1200px) {
-  .boton {
-    background-color: black;
-    color: white;
-    display: flex;
-    position: relative;
-    font-size: 20px;
-    padding: 2px 35px;
-    margin: 0;
-    border-radius: 15px;
-    text-decoration: none;
-    text-align: center;
-    width: 210px;
-    height: 40px;
-    bottom: 0;
-    top: 20px;
-    left: 10px; }
-    .boton:hover {
-      color: red; } }
+.centrarNav {
+  display: flex;
+  position: relative;
+  justify-content: center; }
+
+.textoSeccion {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+  text-shadow: 0 0 30px #e00b21; }
+
+.parrafoSeccion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  padding: 50px; }
+
+.imgIndex {
+  display: flex;
+  justify-content: center; }
+  .imgIndex img {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px; }
+    @media (min-width: 320px) {
+      .imgIndex img {
+        width: 300px;
+        height: 200px; } }
+    @media (min-width: 480px) {
+      .imgIndex img {
+        width: 350px;
+        height: 250px; } }
+    @media (min-width: 580px) {
+      .imgIndex img {
+        width: 500px;
+        height: 300px; } }
+    @media (min-width: 700px) {
+      .imgIndex img {
+        width: 550px;
+        height: 350px; } }
+    @media (min-width: 768px) {
+      .imgIndex img {
+        width: 600px;
+        height: 400px; } }
+    @media (min-width: 1200px) {
+      .imgIndex img {
+        width: 800px;
+        height: 500px; } }
 
 * {
   padding: 0;
@@ -73,782 +70,131 @@
 
 body {
   background-color: #580104;
-  size: 100vh; }
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  size: 100px; }
 
-@media (min-width: 320px) {
-  .iconoBoton {
-    box-shadow: 0 0 5px white;
-    border-radius: 10px; }
-    .iconoBoton:hover {
-      box-shadow: 0 0 5px white; }
-  .buscador1 {
-    border-radius: 10px;
-    border-color: #7e0814; }
-    .buscador1:hover {
-      box-shadow: 0 0 10px #e00b21;
-      border-color: white; }
-  .botonBuscar {
-    border-radius: 10px; }
-  .navColor {
-    background-color: #7e0814;
-    border-radius: 0 0 20px 20px; }
-  .textoNav {
+footer {
+  padding: 10px;
+  background-color: #7e0814;
+  border-radius: 50px 50px 0 0; }
+  footer .pieFooter {
     display: flex;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 8px; }
-  .tituloCarrusel {
+    justify-content: center;
+    gap: 10%; }
+  footer .parrafoFooter {
     display: flex;
-    position: relative;
-    top: 30px;
-    padding: 10px 0 0 0;
-    left: 10px;
-    width: 300px;
-    align-items: center; }
-    .tituloCarrusel h2 {
-      font-size: 25px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white; }
-  .imgPrincipal {
-    display: flex;
-    position: relative;
-    padding: 0;
-    width: 290px;
-    top: 70px;
-    left: 23px;
-    flex-direction: column; }
-    .imgPrincipal img {
-      border: solid white;
-      border-radius: 40px;
-      width: 280px;
-      height: 230px; }
-  .informacion {
-    display: flex;
-    position: relative;
-    padding: 30px 0 0 5px;
-    margin-bottom: 50px;
-    text-align: center;
-    left: 0;
-    font-size: 14px;
-    color: white;
-    top: 30px; }
-    .informacion .infoH3 {
-      display: flex;
-      padding: 30px 0 0 0;
-      width: 300px;
-      margin: 10px 0 35px 0;
-      font-size: 25px;
-      font-family: .informacion .infoH3 fontarial;
-      right: 5px;
-      top: 20px;
-      align-items: center; }
-  .tituloPrincipal {
-    border-right: 0 50px 50px 0;
-    display: flex;
-    position: relative;
-    width: 180px;
-    height: 50px;
-    bottom: 120px;
-    right: 0;
-    left: 50px; }
-    .tituloPrincipal h1 {
-      display: flex;
-      position: relative;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      width: 190px;
-      height: 50px;
-      top: 127px;
-      left: 0;
-      color: white; }
-  .tituloGenero {
-    display: flex;
-    position: relative;
-    padding: 20px;
-    color: white;
-    bottom: 0;
-    left: 0;
-    top: 80px;
-    text-shadow: 0 0 30px #e00b21; }
-    .tituloGenero h2 {
-      display: flex;
-      position: relative;
-      left: 30px;
-      top: 5px;
-      font-size: 30px; }
-  .catalogo {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-content: space-around;
-    align-content: space-around;
-    padding: 160px;
-    left: 0;
-    width: 290px;
-    top: 0; }
-    .catalogo .imgLibros {
-      background-color: #580104;
-      border: solid white;
-      width: 230px;
-      height: 385px;
-      padding: 10px;
-      border-radius: 20px;
-      margin: 20px; }
-      .catalogo .imgLibros img {
-        border-radius: 20px;
-        display: flex;
-        position: relative;
-        width: 205px;
-        height: 275px;
-        left: 0;
-        top: 0; }
-      .catalogo .imgLibros .texto1 {
-        display: flex;
-        position: relative;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0;
-        margin: 0;
-        font-size: 14px;
-        left: 8px;
-        top: 10px; }
-      .catalogo .imgLibros .texto2 {
-        display: flex;
-        position: relative;
-        color: white;
-        padding: 0;
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        bottom: 20px;
-        top: 10px;
-        left: 8px; }
-  .cuadroContacto {
-    border: solid white;
-    border-radius: 70px;
-    display: flex;
-    position: relative;
-    padding: 5px;
-    margin: 30px;
-    width: 301px;
-    height: 500px;
-    right: 20px;
-    transition: 1s;
-    top: 0; }
-    .cuadroContacto .formularioContacto {
-      display: flex;
-      position: relative;
-      flex-direction: column;
-      margin: 50px;
-      top: 5px;
-      width: 180px;
-      height: 30px;
-      left: 0;
-      gap: 15px;
-      color: white; }
-      .cuadroContacto .formularioContacto textarea {
-        width: 180px;
-        height: 80px; }
-  .piePagina {
-    border-radius: 20px 20px 0 0;
-    background-color: #7e0814;
-    display: flex;
-    position: relative;
-    padding: 50px; }
-    .piePagina .py {
-      display: flex;
-      position: relative;
-      width: 40px;
-      height: 40px;
-      padding: 30px;
-      right: 20px;
-      bottom: 30px; }
-      .piePagina .py img {
-        border: solid white;
-        border-radius: 20px;
-        margin: 10px; } }
+    justify-content: center;
+    top: 20px; }
 
-@media (min-width: 410px) {
-  .iconoBoton {
-    box-shadow: 0 0 5px white;
-    border-radius: 10px; }
-    .iconoBoton:hover {
-      box-shadow: 0 0 5px white; }
-  .buscador1 {
-    border-radius: 10px;
-    border-color: #7e0814; }
-    .buscador1:hover {
-      box-shadow: 0 0 10px #e00b21;
-      border-color: white; }
-  .botonBuscar {
-    border-radius: 10px; }
-  .navColor {
+.cuadroContacto {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 50px; }
+  .cuadroContacto .formularioContacto {
     background-color: #7e0814;
-    border-radius: 0 0 20px 20px; }
-  .textoNav {
-    display: flex;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 8px; }
-  .tituloCarrusel {
-    display: flex;
-    position: relative;
-    top: 30px;
-    padding: 10px;
-    margin: 20px;
-    left: 40px;
-    width: 300px;
-    text-align: center; }
-    .tituloCarrusel h2 {
-      font-size: 20px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white; }
-  .imgPrincipal {
-    display: flex;
-    position: relative;
-    padding: 0;
-    width: 320px;
-    top: 70px;
-    left: 35px;
-    flex-direction: column; }
-    .imgPrincipal img {
-      border: solid white;
-      border-radius: 40px;
-      width: 340px;
-      height: 300px; }
-  .informacion {
-    display: flex;
-    position: relative;
-    padding: 30px;
-    margin: 5px;
-    text-align: center;
-    left: 5px;
-    font-size: 15px;
-    color: white;
-    top: 30px; }
-    .informacion .infoH3 {
-      display: flex;
-      padding: 50px 60px;
-      width: 340px;
-      font-size: 20px;
-      font-family: .informacion .infoH3 fontarial;
-      left: 500px;
-      top: 20px;
-      align-items: center; }
-  .tituloPrincipal {
-    border-right: 0 50px 50px 0;
-    display: flex;
-    position: relative;
-    width: 300px;
-    height: 50px;
-    bottom: 120px;
-    right: 0;
-    left: 50px; }
-    .tituloPrincipal h1 {
-      display: flex;
-      position: relative;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      width: 190px;
-      height: 50px;
-      top: 127px;
-      left: 0;
-      color: white; }
-  .tituloGenero {
-    display: flex;
-    position: relative;
-    padding: 20px;
-    color: white;
-    bottom: 0;
-    left: 0;
-    top: 80px;
-    text-shadow: 0 0 30px #e00b21; }
-    .tituloGenero h2 {
-      display: flex;
-      position: relative;
-      left: 40px;
-      top: 5px;
-      font-size: 40px; }
-  .catalogo {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-around;
-    align-content: space-around;
-    padding: 160px;
-    left: 45px;
-    width: 300px;
-    top: 0; }
-    .catalogo .imgLibros {
-      background-color: #580104;
-      border: solid white;
-      width: 181px;
-      height: 325px;
-      padding: 10px;
-      border-radius: 20px;
-      margin: 20px; }
-      .catalogo .imgLibros img {
-        border-radius: 20px;
-        display: flex;
-        position: relative;
-        width: 155px;
-        height: 220px;
-        left: 0;
-        top: 0; }
-      .catalogo .imgLibros .texto1 {
-        display: flex;
-        position: relative;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0;
-        margin: 0;
-        font-size: 12px;
-        left: 8px;
-        top: 10px; }
-      .catalogo .imgLibros .texto2 {
-        display: flex;
-        position: relative;
-        color: white;
-        padding: 0;
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-        bottom: 20px;
-        top: 10px;
-        left: 8px; }
-  .cuadroContacto {
-    border: solid white;
-    border-radius: 70px;
-    display: flex;
-    position: relative;
-    padding: 5px;
-    margin: 30px;
-    width: 350px;
-    height: 500px;
-    left: 0;
-    transition: 1s;
-    top: 0; }
-    .cuadroContacto .formularioContacto {
-      display: flex;
-      position: relative;
-      flex-direction: column;
-      margin: 50px;
-      top: 17px;
-      width: 235px;
-      height: 30px;
-      left: 0;
-      gap: 15px;
-      color: white; }
-      .cuadroContacto .formularioContacto textarea {
-        width: 235px;
-        height: 50px; }
-  .piePagina {
-    border-radius: 20px 20px 0 0;
-    background-color: #7e0814;
-    display: flex;
-    position: relative;
-    padding: 50px; }
-    .piePagina .py {
-      display: flex;
-      position: relative;
-      width: 40px;
-      height: 40px;
-      padding: 30px;
-      left: 25px;
-      bottom: 30px; }
-      .piePagina .py img {
-        border: solid white;
-        border-radius: 20px;
-        margin: 10px; } }
-
-@media (min-width: 768px) {
-  .iconoBoton {
-    box-shadow: 0 0 5px white;
-    border-radius: 10px; }
-    .iconoBoton:hover {
-      box-shadow: 0 0 5px white; }
-  .buscador1 {
-    border-radius: 10px;
-    border-color: #7e0814; }
-    .buscador1:hover {
-      box-shadow: 0 0 10px #e00b21;
-      border-color: white; }
-  .botonBuscar {
-    border-radius: 10px; }
-  .navColor {
-    background-color: #7e0814;
-    border-radius: 0 0 20px 20px; }
-  .textoNav {
-    display: flex;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 8px; }
-  .tituloCarrusel {
-    display: flex;
-    position: relative;
-    top: 50px;
-    padding: 10px;
-    margin: 20px;
-    left: 110px;
-    width: 500px;
-    text-align: center; }
-    .tituloCarrusel h2 {
-      font-size: 20px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white; }
-  .imgPrincipal {
-    display: flex;
-    position: relative;
-    padding: 0;
-    width: 320px;
-    top: 70px;
-    left: 170px;
-    flex-direction: column; }
-    .imgPrincipal img {
-      border: solid white;
-      border-radius: 40px;
-      width: 430px;
-      height: 330px; }
-  .informacion {
-    display: flex;
-    position: relative;
-    padding: 30px;
-    margin: 40px 0 40px 0;
-    text-align: center;
-    left: 5px;
-    font-size: 15px;
-    color: white;
-    top: 30px;
-    width: 750px; }
-    .informacion .infoH3 {
-      display: flex;
-      padding: 30px 90px;
-      width: 500px;
-      font-size: 20px;
-      font-family: .informacion .infoH3 fontarial;
-      left: 500px;
-      top: 50px;
-      margin-left: 100px;
-      align-items: center; }
-  .tituloPrincipal {
-    border-right: 0 50px 50px 0;
-    display: flex;
-    position: relative;
-    width: 300px;
-    height: 50px;
-    bottom: 120px;
-    right: 0;
-    left: 50px; }
-    .tituloPrincipal h1 {
-      display: flex;
-      position: relative;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      width: 190px;
-      height: 50px;
-      top: 127px;
-      left: 0;
-      color: white; }
-  .tituloGenero {
-    display: flex;
-    position: relative;
-    padding: 20px;
-    color: white;
-    bottom: 0;
-    left: 160px;
-    top: 80px;
-    width: 400px;
-    text-shadow: 0 0 30px #e00b21; }
-    .tituloGenero h2 {
-      display: flex;
-      position: relative;
-      left: 40px;
-      top: 5px;
-      font-size: 40px; }
-  .catalogo {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: space-around;
-    align-content: space-around;
-    padding: 160px;
-    left: 225px;
-    width: 300px;
-    top: 0; }
-    .catalogo .imgLibros {
-      background-color: #580104;
-      border: solid white;
-      width: 220px;
-      height: 370px;
-      padding: 10px;
-      border-radius: 15px;
-      margin: 20px; }
-      .catalogo .imgLibros img {
-        border-radius: 10px;
-        display: flex;
-        position: relative;
-        width: 195px;
-        height: 260px;
-        left: 0;
-        top: 0; }
-      .catalogo .imgLibros .texto1 {
-        display: flex;
-        position: relative;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0;
-        margin: 0;
-        font-size: 14px;
-        left: 8px;
-        top: 10px; }
-      .catalogo .imgLibros .texto2 {
-        display: flex;
-        position: relative;
-        color: white;
-        padding: 0;
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        bottom: 20px;
-        top: 10px;
-        left: 8px; }
-  .cuadroContacto {
-    border: solid white;
-    border-radius: 70px;
-    display: flex;
-    position: relative;
-    padding: 5px;
-    margin: 30px;
+    border-radius: 20px;
     width: 710px;
-    height: 500px;
-    left: 0;
-    transition: 1s;
-    top: 0; }
-    .cuadroContacto .formularioContacto {
-      display: flex;
-      position: relative;
-      flex-direction: column;
-      margin: 50px;
-      top: 0;
-      width: 500px;
-      height: 30px;
-      left: 50px;
-      gap: 15px;
-      color: white; }
-      .cuadroContacto .formularioContacto textarea {
-        width: 500px;
-        height: 100px; }
-  .piePagina {
-    border-radius: 20px 20px 0 0;
-    background-color: #7e0814;
+    height: 430px;
     display: flex;
-    position: relative;
-    padding: 50px; }
-    .piePagina .py {
-      display: flex;
-      position: relative;
-      width: 50px;
-      height: 50px;
-      padding: 40px;
-      left: 180px;
-      bottom: 30px; }
-      .piePagina .py img {
-        border: solid white;
-        border-radius: 20px;
-        margin: 10px; } }
-
-@media (min-width: 1200px) {
-  .navColor {
-    background-color: #7e0814;
-    height: 180px;
-    border-radius: 0 0 50px 50px; }
-  .textoNav {
-    display: flex;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding: 8px; }
-    .textoNav:hover {
-      transform: scale(1.1);
-      background-color: #580104;
-      box-shadow: 0 0 30px #580104;
-      border-radius: 15px; }
-  .tituloCarrusel {
-    display: flex;
-    position: relative;
-    top: 50px;
-    padding: 10px;
-    margin: 20px;
-    left: 390px;
-    width: 600px; }
-    .tituloCarrusel h2 {
-      font-size: 20px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      color: white; }
-  .imgPrincipal {
-    display: flex;
-    position: relative;
-    width: 500px;
-    height: 450px;
-    padding: 0;
-    top: 90px;
-    left: 360px;
-    flex-direction: column; }
-    .imgPrincipal img {
-      border: solid white;
-      border-radius: 40px;
-      width: 600px;
-      height: 400px; }
-  .informacion {
-    display: flex;
-    position: relative;
-    padding: 30px;
-    margin: 20px 0 20px;
-    top: 50px;
-    text-align: center;
-    left: 140px;
-    font-size: 15px;
-    color: white;
-    right: 30px; }
-    .informacion .infoH3 {
-      display: flex;
-      padding: 50px 250px;
-      width: 900px;
-      font-size: 20px;
-      font-family: .informacion .infoH3 fontarial;
-      left: 100px; }
-  .tituloPrincipal {
-    border-right: 0 50px 50px 0;
-    display: flex;
-    position: relative;
-    width: 500px;
-    height: 50px;
-    bottom: 120px;
-    right: 0;
-    left: 50px; }
-    .tituloPrincipal h1 {
-      display: flex;
-      position: relative;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 30px;
-      width: 190px;
-      height: 50px;
-      top: 127px;
-      left: 0;
-      color: white; }
-  .tituloGenero {
-    display: flex;
-    position: relative;
+    justify-content: center;
+    flex-direction: column;
     padding: 20px;
-    color: white;
-    bottom: 0;
-    left: 0;
-    top: 50px;
-    text-shadow: 0 0 30px #e00b21; }
-    .tituloGenero h2 {
-      display: flex;
-      position: relative;
-      left: 500px;
-      top: 0;
-      font-size: 40px; }
-  .catalogo {
-    display: grid;
-    position: relative;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: space-around;
-    align-content: space-around;
-    padding: 120px;
-    gap: 70px;
-    left: 500px; }
-    .catalogo .imgLibros {
-      background-color: #580104;
-      border: solid white;
-      width: 260px;
-      height: 430px;
-      padding: 10;
-      border-radius: 20px;
-      margin: 20px; }
-      .catalogo .imgLibros:hover {
-        transform: translateY(-3%);
-        box-shadow: 0 0 35px #e00b21; }
-      .catalogo .imgLibros img {
-        border-radius: 20px;
-        display: flex;
-        position: relative;
-        width: 225px;
-        height: 300px;
-        left: 5px;
-        top: 0; }
-      .catalogo .imgLibros .texto1 {
-        display: flex;
-        position: relative;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 0;
-        margin: 0;
-        font-size: 16px;
-        left: 8px; }
-      .catalogo .imgLibros .texto2 {
-        display: flex;
-        position: relative;
-        color: white;
-        padding: 0;
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        bottom: 20px;
-        top: 15px;
-        left: 8px; }
-  .cuadroContacto {
+    gap: 10px; }
+
+.input {
+  border-style: none;
+  border-radius: 10px; }
+  .input:hover {
+    box-shadow: 0 0 10px #e00b21; }
+
+textarea {
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 100px; }
+  textarea:hover {
+    box-shadow: 0 0 10px #e00b21; }
+
+.tituloGenero {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 50px;
+  text-decoration: underline; }
+
+.catalogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 70px;
+  padding: 150px; }
+  @media (min-width: 320px) {
+    .catalogo {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr; } }
+  @media (min-width: 550px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px; } }
+  @media (min-width: 680px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 70px; } }
+  @media (min-width: 768px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 70px; } }
+  @media (min-width: 820px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px; } }
+  @media (min-width: 880px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 30px; } }
+  @media (min-width: 920px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 30px; } }
+  @media (min-width: 1070px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 70px; } }
+  .catalogo .imgLibros {
+    width: 255px;
+    height: 445px;
     border: solid white;
-    border-radius: 50px;
-    display: flex;
-    position: relative;
-    padding: 5px;
-    margin: 30px;
-    width: 700px;
-    height: 500px;
-    left: 280px;
-    transition: 1s;
-    top: 0; }
-    .cuadroContacto .formularioContacto {
+    padding: 10px 10px;
+    border-radius: 10px; }
+    .catalogo .imgLibros:hover {
+      box-shadow: 0 0 30px #e00b21;
+      transform: translateY(-3%); }
+    .catalogo .imgLibros img {
+      width: 230px;
+      align-items: center;
+      height: 300px;
       display: flex;
-      position: relative;
-      flex-direction: column;
-      margin: 50px;
-      top: 10px;
-      width: 500px;
-      height: 50px;
-      left: 40px;
-      color: white;
-      gap: 10px; }
-      .cuadroContacto .formularioContacto textarea {
-        width: 500px;
-        height: 100px; }
-  .piePagina {
-    background-color: #7e0814;
-    display: flex;
-    position: relative;
-    padding: 40px; }
-    .piePagina .py {
-      display: flex;
-      position: relative;
-      width: 100px;
-      height: 100px;
-      padding: 20px;
-      left: 450px;
-      bottom: 0; }
-      .piePagina .py img {
-        border: solid white;
-        border-radius: 20px; } }
+      justify-content: center;
+      border-radius: 10px; }
+
+.boton {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none; }
+  .boton:hover {
+    color: white; }

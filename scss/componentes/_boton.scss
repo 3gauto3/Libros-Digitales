@@ -1,74 +1,16 @@
-       @import '../base/variables';
-       
-       .boton {
+@import '../base/variables';
 
-            @media (min-width:320px) {
-                background-color: $colornegro;
-                border-radius: 10px;
-                color: white;
-                display: flex;
-                position: relative;
-                font-size: 17px;
-                padding: 3px 0 3px 25px;
-                text-decoration: none;
-                text-align: center;
-                width: 170px;
-                height: 35px;
-                left: 15px;
-                top: 15px;
-            }
+.boton {
+    display: flex;
+    justify-content: center;
+    background-color: $colornegro;
+    border-radius: 10px;
+    padding: 10px;
+    color: $textoblanco;
+    text-decoration: none;
 
+    &:hover {
+color: $textoblanco;
 
-            @media (min-width:410px) {
-                background-color: $colornegro;
-                border-radius: 10px;
-                color: white;
-                display: flex;
-                position: relative;
-                font-size: 15px;
-                padding: 2px 22px;
-                text-decoration: none;
-                text-align: center;
-                width: 150px;
-                height: 30px;
-                left: 0;
-                top: 20px;
-            }
-
-                        @media (min-width:768px) {
-                            background-color: $colornegro;
-                            border-radius: 10px;
-                            color: white;
-                            display: flex;
-                            position: relative;
-                            font-size: 16px;
-                            padding: 3px 23px;
-                            text-decoration: none;
-                            text-align: center;
-                            width: 155px;
-                            height: 35px;
-                            left: 17px;
-                            top: 12px;
-                        }
-
-            @media (min-width:1200px) {
-                background-color: $colornegro;
-                color: white;
-                display: flex;
-                position: relative;
-                font-size: 20px;
-                padding: 2px 35px;
-                margin: 0;
-                border-radius: 15px;
-                text-decoration: none;
-                text-align: center;
-                width: 210px;
-                height: 40px;
-                bottom: 0;
-                top: 20px;
-                left: 10px;
-                &:hover {
-                    color: red;
-                }
-                }
-            }
+    }
+}

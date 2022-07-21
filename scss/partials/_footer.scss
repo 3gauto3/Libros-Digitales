@@ -1,0 +1,19 @@
+@import "../base/variables";
+
+
+footer {
+padding: 10px;
+background-color: $colorteal;
+border-radius: 50px 50px 0 0;
+
+    .pieFooter {
+display: flex;
+justify-content: center;
+gap: 10%;
+    }
+    .parrafoFooter{
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    }
+}

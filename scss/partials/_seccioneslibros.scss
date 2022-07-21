@@ -1,0 +1,117 @@
+@import "../base/variables";
+
+
+
+.tituloGenero {
+display: flex;
+justify-content: center;
+font-size: 40px;
+padding: 50px;
+text-decoration:underline;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 70px;
+    padding: 150px;
+
+    @media (min-width:320px) {
+    grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+}
+
+    @media (min-width:550px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px; 
+    }
+
+        @media (min-width: 680px) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 70px;
+        }
+
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 70px;
+    }
+
+    @media (min-width: 820px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px;
+    }
+
+        @media (min-width: 880px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 30px;
+        }
+
+    @media (min-width:920px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 30px;
+    }
+
+    @media (min-width: 1070px) {
+               grid-template-columns: 1fr 1fr 1fr;
+               grid-template-rows: 1fr 1fr 1fr;
+               gap: 70px;
+    }
+
+    @media (min-width:320px) {}
+
+    .imgLibros {
+        width: 255px;
+        height: 445px;
+        border: solid $textoblanco;
+        padding: 10px 10px;
+        border-radius: 10px;
+
+        &:hover {
+            box-shadow: 0 0 30px $colorresalteado;
+            transform: translateY(-3%);
+        }
+    @media (min-width:320px) {
+    }
+
+    @media (min-width:320px) {}
+
+    @media (min-width:320px) {}
+
+    @media (min-width:320px) {}
+
+    @media (min-width:320px) {}
+
+    @media (min-width:320px) {}
+
+    @media (min-width:320px) {}
+        img {
+            width: 230px;
+            align-items: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            border-radius: 10px;
+                @media (min-width:320px) {}
+
+                @media (min-width:320px) {}
+
+                @media (min-width:320px) {}
+
+                @media (min-width:320px) {}
+
+                @media (min-width:320px) {}
+
+                @media (min-width:320px) {}
+
+                @media (min-width:320px) {}
+        }
+    }
+}

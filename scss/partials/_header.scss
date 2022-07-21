@@ -1,0 +1,85 @@
+@import '../base/variables';
+
+.navColor {
+    background-color: $colorteal;
+    padding: 40px;
+    border-radius: 0 0 50px 50px;
+}
+
+.navCentro {
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.textoNav {
+    &:hover {
+        background-color: $colorcoral;
+        transform: (1.1);
+        box-shadow: 0 0 10px $colorresalteado;
+        border-radius: 10px;
+    }
+}
+
+.centrarNav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.textoSeccion {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    text-shadow: 0 0 30px $colorresalteado;
+}
+
+.parrafoSeccion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    padding: 50px;
+}
+
+.imgIndex {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 600px;
+        height: 400px;
+        border-radius: 10px;
+
+        @media (min-width: 320px) {
+            width: 300px;
+            height: 200px;
+        }
+
+        @media (min-width: 480px) {
+            width: 350px;
+            height: 250px;
+        }
+
+        @media (min-width: 580px) {
+            width: 500px;
+            height: 300px;
+        }
+
+        @media (min-width: 700px) {
+            width: 550px;
+            height: 350px;
+        }
+
+        @media (min-width: 768px) {
+            width: 600px;
+            height: 400px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 800px;
+            height: 500px;
+        }
+
+    }
+}
