@@ -90,6 +90,11 @@ textarea {
   font-size: 40px;
   margin-top: 100px;
   text-shadow: 0 0 30px #e00b21; }
+  .tituloGenero h2 {
+    box-shadow: 0 0 10px #e00b21;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #7e0814; }
 
 .catalogo {
   display: grid;
