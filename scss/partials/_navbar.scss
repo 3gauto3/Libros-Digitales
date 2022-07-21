@@ -1,1 +1,28 @@
 @import "../base/variables";
+
+.navColor {
+    background-color: $colorteal;
+    padding: 40px;
+    border-radius: 0 0 50px 50px;
+}
+
+.navCentro {
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.textoNav {
+    &:hover {
+        background-color: $colorcoral;
+        transform: (1.1);
+        box-shadow: 0 0 10px $colorresalteado;
+        border-radius: 10px;
+    }
+}
+
+.centrarNav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}

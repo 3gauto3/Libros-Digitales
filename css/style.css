@@ -1,3 +1,65 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #580104;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  size: 100px; }
+
+footer {
+  padding: 10px;
+  background-color: #7e0814;
+  border-radius: 50px 50px 0 0; }
+  footer .pieFooter {
+    display: flex;
+    justify-content: center;
+    gap: 10%; }
+  footer .parrafoFooter {
+    display: flex;
+    justify-content: center;
+    top: 20px; }
+
+.cuadroContacto {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 50px; }
+  @media (min-width: 320px) {
+    .cuadroContacto {
+      padding: 10px;
+      margin: 10px; } }
+  @media (min-width: 410px) {
+    .cuadroContacto {
+      padding: 15px;
+      margin: 15px; } }
+  .cuadroContacto .formularioContacto {
+    background-color: #7e0814;
+    border-radius: 20px;
+    width: 710px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px; }
+
+.input {
+  border-style: none;
+  border-radius: 10px; }
+  .input:hover {
+    box-shadow: 0 0 10px #e00b21; }
+
+textarea {
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 100px; }
+  textarea:hover {
+    box-shadow: 0 0 10px #e00b21; }
+
 .navColor {
   background-color: #7e0814;
   padding: 40px;
@@ -19,18 +81,101 @@
   position: relative;
   justify-content: center; }
 
-.textoSeccion {
-  font-size: 30px;
-  text-align: center;
-  padding: 50px;
+.tituloGenero {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 100px;
   text-shadow: 0 0 30px #e00b21; }
 
-.parrafoSeccion {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-items: center;
-  padding: 50px; }
+.catalogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 70px;
+  padding: 150px;
+  margin-top: 0; }
+  @media (min-width: 320px) {
+    .catalogo {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr; } }
+  @media (min-width: 550px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px; } }
+  @media (min-width: 600px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 25px; } }
+  @media (min-width: 660px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 50px; } }
+  @media (min-width: 680px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 50px; } }
+  @media (min-width: 768px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 70px; } }
+  @media (min-width: 820px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 15px; } }
+  @media (min-width: 850px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 20px; } }
+  @media (min-width: 880px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 30px; } }
+  @media (min-width: 920px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 30px; } }
+  @media (min-width: 950px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 40px; } }
+  @media (min-width: 1000px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 60px; } }
+  @media (min-width: 1070px) {
+    .catalogo {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 70px; } }
+  .catalogo .imgLibros {
+    width: 255px;
+    height: 445px;
+    border: solid white;
+    padding: 10px 10px;
+    border-radius: 10px; }
+    .catalogo .imgLibros:hover {
+      box-shadow: 0 0 30px #e00b21;
+      transform: translateY(-3%); }
+    .catalogo .imgLibros img {
+      width: 230px;
+      align-items: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      border-radius: 10px; }
 
 .imgIndex {
   display: flex;
@@ -64,129 +209,18 @@
         width: 800px;
         height: 500px; } }
 
-* {
-  padding: 0;
-  margin: 0; }
-
-body {
-  background-color: #580104;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  size: 100px; }
-
-footer {
-  padding: 10px;
-  background-color: #7e0814;
-  border-radius: 50px 50px 0 0; }
-  footer .pieFooter {
-    display: flex;
-    justify-content: center;
-    gap: 10%; }
-  footer .parrafoFooter {
-    display: flex;
-    justify-content: center;
-    top: 20px; }
-
-.cuadroContacto {
-  display: flex;
-  justify-content: center;
+.textoSeccion {
+  font-size: 30px;
+  text-align: center;
   padding: 50px;
-  margin: 50px; }
-  .cuadroContacto .formularioContacto {
-    background-color: #7e0814;
-    border-radius: 20px;
-    width: 710px;
-    height: 430px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-    gap: 10px; }
+  text-shadow: 0 0 30px #e00b21; }
 
-.input {
-  border-style: none;
-  border-radius: 10px; }
-  .input:hover {
-    box-shadow: 0 0 10px #e00b21; }
-
-textarea {
-  background-color: white;
-  border-style: none;
-  border-radius: 10px;
-  width: 100%;
-  height: 100px; }
-  textarea:hover {
-    box-shadow: 0 0 10px #e00b21; }
-
-.tituloGenero {
+.parrafoSeccion {
   display: flex;
-  justify-content: center;
-  font-size: 40px;
-  padding: 50px;
-  text-decoration: underline; }
-
-.catalogo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  justify-content: center;
-  gap: 70px;
-  padding: 150px; }
-  @media (min-width: 320px) {
-    .catalogo {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr; } }
-  @media (min-width: 550px) {
-    .catalogo {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 20px; } }
-  @media (min-width: 680px) {
-    .catalogo {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 70px; } }
-  @media (min-width: 768px) {
-    .catalogo {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 70px; } }
-  @media (min-width: 820px) {
-    .catalogo {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      gap: 10px; } }
-  @media (min-width: 880px) {
-    .catalogo {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      gap: 30px; } }
-  @media (min-width: 920px) {
-    .catalogo {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      gap: 30px; } }
-  @media (min-width: 1070px) {
-    .catalogo {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-      gap: 70px; } }
-  .catalogo .imgLibros {
-    width: 255px;
-    height: 445px;
-    border: solid white;
-    padding: 10px 10px;
-    border-radius: 10px; }
-    .catalogo .imgLibros:hover {
-      box-shadow: 0 0 30px #e00b21;
-      transform: translateY(-3%); }
-    .catalogo .imgLibros img {
-      width: 230px;
-      align-items: center;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      border-radius: 10px; }
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  padding: 50px; }
 
 .boton {
   display: flex;
