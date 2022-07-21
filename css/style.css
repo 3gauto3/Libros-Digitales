@@ -9,10 +9,9 @@ body {
   size: 100%; }
 
 footer {
-  padding: 10px;
+  padding: 30px 30px 30px 30px;
   background-color: #7e0814;
-  border-radius: 50px 50px 0 0;
-  margin-top: auto; }
+  border-radius: 50px 50px 0 0; }
   footer .pieFooter {
     display: flex;
     justify-content: center;
@@ -65,6 +64,14 @@ textarea {
   background-color: #7e0814;
   padding: 40px;
   border-radius: 0 0 50px 50px; }
+  @media (min-width: 320px) {
+    .navColor {
+      padding: 10px;
+      border-radius: 0 0 50px 50px; } }
+  @media (min-width: 768px) {
+    .navColor {
+      padding: 40px;
+      border-radius: 0 0 50px 50px; } }
 
 .textoNav {
   font-size: 25px; }
@@ -76,7 +83,8 @@ textarea {
       border-radius: 10px; } }
 
 .iconoBoton {
-  margin-top: 10px; }
+  margin-top: 10px;
+  border-radius: 10px; }
 
 .buscador1 {
   border-radius: 15px; }

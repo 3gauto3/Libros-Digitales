@@ -4,6 +4,14 @@
     background-color: $colorteal;
     padding: 40px;
     border-radius: 0 0 50px 50px;
+            @media (min-width: 320px){
+         padding: 10px;
+         border-radius: 0 0 50px 50px;
+            }
+                        @media (min-width: 768px) {
+                                padding: 40px;
+                            border-radius: 0 0 50px 50px;
+                        }
 }
 
 .textoNav {
@@ -21,6 +29,7 @@
 
 .iconoBoton {
 margin-top: 10px;
+border-radius: 10px;
 }
 
 .buscador1 {
