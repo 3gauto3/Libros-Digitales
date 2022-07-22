@@ -9,5 +9,8 @@ body {
     background-color: $colorcoral;
     font-family: $fontarial;
     color: $textoblanco;
-    size: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
 }
